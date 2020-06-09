@@ -46,6 +46,54 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="fCategories.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fCategories.Designer.cs">
+      <DependentUpon>fCategories.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fCustomerOrders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fCustomerOrders.Designer.cs">
+      <DependentUpon>fCustomerOrders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fCustomerPhoneList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fCustomerPhoneList.Designer.cs">
+      <DependentUpon>fCustomerPhoneList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fCustomers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fCustomers.Designer.cs">
+      <DependentUpon>fCustomers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fEmployees.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fEmployees.Designer.cs">
+      <DependentUpon>fEmployees.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fOrders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fOrders.Designer.cs">
+      <DependentUpon>fOrders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fProductList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fProductList.Designer.cs">
+      <DependentUpon>fProductList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fProducts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fProducts.Designer.cs">
+      <DependentUpon>fProducts.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmCheckout.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,8 +118,35 @@
     <Compile Include="frmWelcome.Designer.cs">
       <DependentUpon>frmWelcome.cs</DependentUpon>
     </Compile>
+    <Compile Include="fSalesAnalysis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fSalesAnalysis.Designer.cs">
+      <DependentUpon>fSalesAnalysis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fSalesReportDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fSalesReportDialog.Designer.cs">
+      <DependentUpon>fSalesReportDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fSuppliers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fSuppliers.Designer.cs">
+      <DependentUpon>fSuppliers.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="fOrders.resx">
+      <DependentUpon>fOrders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fProductList.resx">
+      <DependentUpon>fProductList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fProducts.resx">
+      <DependentUpon>fProducts.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmCheckout.resx">
       <DependentUpon>frmCheckout.cs</DependentUpon>
     </EmbeddedResource>
@@ -83,6 +158,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmWelcome.resx">
       <DependentUpon>frmWelcome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fSalesAnalysis.resx">
+      <DependentUpon>fSalesAnalysis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fSuppliers.resx">
+      <DependentUpon>fSuppliers.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
