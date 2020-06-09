@@ -46,12 +46,16 @@
             this.chứcNăngToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.trợGiúpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.giớiThiệuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.chứcNăngToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.chươngTrìnhToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.thôngTinPhiênBảnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.kiểmTraCậpNhậtToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gửiBáoCáoLỗiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.yêuCầuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.chứcNăngToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.chươngTrìnhToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -64,7 +68,7 @@
             this.trợGiúpToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(517, 25);
+            this.menuStrip1.Size = new System.Drawing.Size(450, 25);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -149,7 +153,7 @@
             this.âmThanhToolStripMenuItem,
             this.khácToolStripMenuItem});
             this.giaoDiệnToolStripMenuItem.Name = "giaoDiệnToolStripMenuItem";
-            this.giaoDiệnToolStripMenuItem.Size = new System.Drawing.Size(151, 22);
+            this.giaoDiệnToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.giaoDiệnToolStripMenuItem.Text = "Hệ Thống";
             // 
             // hìnhẢnhToolStripMenuItem
@@ -173,7 +177,7 @@
             // chứcNăngToolStripMenuItem
             // 
             this.chứcNăngToolStripMenuItem.Name = "chứcNăngToolStripMenuItem";
-            this.chứcNăngToolStripMenuItem.Size = new System.Drawing.Size(151, 22);
+            this.chứcNăngToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.chứcNăngToolStripMenuItem.Text = "Chức Năng";
             // 
             // trợGiúpToolStripMenuItem
@@ -195,6 +199,18 @@
             this.giớiThiệuToolStripMenuItem.Name = "giớiThiệuToolStripMenuItem";
             this.giớiThiệuToolStripMenuItem.Size = new System.Drawing.Size(211, 22);
             this.giớiThiệuToolStripMenuItem.Text = "Giới Thiệu";
+            // 
+            // chứcNăngToolStripMenuItem1
+            // 
+            this.chứcNăngToolStripMenuItem1.Name = "chứcNăngToolStripMenuItem1";
+            this.chứcNăngToolStripMenuItem1.Size = new System.Drawing.Size(167, 22);
+            this.chứcNăngToolStripMenuItem1.Text = "Chức Năng";
+            // 
+            // chươngTrìnhToolStripMenuItem
+            // 
+            this.chươngTrìnhToolStripMenuItem.Name = "chươngTrìnhToolStripMenuItem";
+            this.chươngTrìnhToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
+            this.chươngTrìnhToolStripMenuItem.Text = "Chương Trình";
             // 
             // thôngTinPhiênBảnToolStripMenuItem
             // 
@@ -222,26 +238,65 @@
             this.yêuCầuToolStripMenuItem.Size = new System.Drawing.Size(211, 22);
             this.yêuCầuToolStripMenuItem.Text = "Yêu Cầu Chức Năng";
             // 
-            // chứcNăngToolStripMenuItem1
+            // button1
             // 
-            this.chứcNăngToolStripMenuItem1.Name = "chứcNăngToolStripMenuItem1";
-            this.chứcNăngToolStripMenuItem1.Size = new System.Drawing.Size(167, 22);
-            this.chứcNăngToolStripMenuItem1.Text = "Chức Năng";
+            this.button1.Font = new System.Drawing.Font("Arial", 8.25F);
+            this.button1.Location = new System.Drawing.Point(21, 49);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(175, 120);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "Mở Chức Năng";
+            this.button1.UseVisualStyleBackColor = true;
             // 
-            // chươngTrìnhToolStripMenuItem
+            // button2
             // 
-            this.chươngTrìnhToolStripMenuItem.Name = "chươngTrìnhToolStripMenuItem";
-            this.chươngTrìnhToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
-            this.chươngTrìnhToolStripMenuItem.Text = "Chương Trình";
+            this.button2.Font = new System.Drawing.Font("Arial", 8.25F);
+            this.button2.Location = new System.Drawing.Point(242, 49);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(175, 120);
+            this.button2.TabIndex = 1;
+            this.button2.Text = "Khôi Phục Dữ Liệu";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Font = new System.Drawing.Font("Arial", 8.25F);
+            this.button3.Location = new System.Drawing.Point(21, 200);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(175, 120);
+            this.button3.TabIndex = 1;
+            this.button3.Text = "Thiết Lập Cấu Hình";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Arial", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.button4.ForeColor = System.Drawing.Color.White;
+            this.button4.Location = new System.Drawing.Point(242, 200);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(175, 120);
+            this.button4.TabIndex = 1;
+            this.button4.Text = "Thoát Chương Trình";
+            this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // frmWelcome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(517, 320);
+            this.ClientSize = new System.Drawing.Size(450, 374);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "frmWelcome";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Chương Trình Quản Lý Tiệm Cafe";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
@@ -276,6 +331,10 @@
         private System.Windows.Forms.ToolStripMenuItem nhậpDữLiệuToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem chứcNăngToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem chươngTrìnhToolStripMenuItem;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
     }
 }
 
