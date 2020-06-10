@@ -106,17 +106,17 @@
     <Compile Include="fLogin.Designer.cs">
       <DependentUpon>fLogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="fManagement.cs">
+    <Compile Include="fTableManagement.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="fManagement.Designer.cs">
-      <DependentUpon>fManagement.cs</DependentUpon>
+    <Compile Include="fTableManagement.Designer.cs">
+      <DependentUpon>fTableManagement.cs</DependentUpon>
     </Compile>
-    <Compile Include="fWelcome.cs">
+    <Compile Include="fSoftwareManagement.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="fWelcome.Designer.cs">
-      <DependentUpon>fWelcome.cs</DependentUpon>
+    <Compile Include="fSoftwareManagement.Designer.cs">
+      <DependentUpon>fSoftwareManagement.cs</DependentUpon>
     </Compile>
     <Compile Include="fSalesAnalysis.cs">
       <SubType>Form</SubType>
@@ -153,11 +153,11 @@
     <EmbeddedResource Include="fLogin.resx">
       <DependentUpon>fLogin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fManagement.resx">
-      <DependentUpon>fManagement.cs</DependentUpon>
+    <EmbeddedResource Include="fTableManagement.resx">
+      <DependentUpon>fTableManagement.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fWelcome.resx">
-      <DependentUpon>fWelcome.cs</DependentUpon>
+    <EmbeddedResource Include="fSoftwareManagement.resx">
+      <DependentUpon>fSoftwareManagement.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="fSalesAnalysis.resx">
       <DependentUpon>fSalesAnalysis.cs</DependentUpon>
