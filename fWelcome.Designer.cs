@@ -1,6 +1,6 @@
 ﻿namespace DuAnPhanMemQuanLyTiemCafe
 {
-    partial class frmWelcome
+    partial class fWelcome
     {
         /// <summary>
         /// Required designer variable.
@@ -52,10 +52,10 @@
             this.kiểmTraCậpNhậtToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gửiBáoCáoLỗiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.yêuCầuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnAccess = new System.Windows.Forms.Button();
+            this.btnRecovery = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btnExit = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -68,7 +68,7 @@
             this.trợGiúpToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(450, 25);
+            this.menuStrip1.Size = new System.Drawing.Size(467, 25);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -159,19 +159,19 @@
             // hìnhẢnhToolStripMenuItem
             // 
             this.hìnhẢnhToolStripMenuItem.Name = "hìnhẢnhToolStripMenuItem";
-            this.hìnhẢnhToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
+            this.hìnhẢnhToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.hìnhẢnhToolStripMenuItem.Text = "Hình Ảnh";
             // 
             // âmThanhToolStripMenuItem
             // 
             this.âmThanhToolStripMenuItem.Name = "âmThanhToolStripMenuItem";
-            this.âmThanhToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
+            this.âmThanhToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.âmThanhToolStripMenuItem.Text = "Âm Thanh";
             // 
             // khácToolStripMenuItem
             // 
             this.khácToolStripMenuItem.Name = "khácToolStripMenuItem";
-            this.khácToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
+            this.khácToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.khácToolStripMenuItem.Text = "Khác";
             // 
             // chứcNăngToolStripMenuItem
@@ -238,61 +238,72 @@
             this.yêuCầuToolStripMenuItem.Size = new System.Drawing.Size(211, 22);
             this.yêuCầuToolStripMenuItem.Text = "Yêu Cầu Chức Năng";
             // 
-            // button1
+            // btnAccess
             // 
-            this.button1.Font = new System.Drawing.Font("Arial", 8.25F);
-            this.button1.Location = new System.Drawing.Point(21, 49);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(175, 120);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Mở Chức Năng";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnAccess.BackColor = System.Drawing.Color.Yellow;
+            this.btnAccess.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnAccess.FlatAppearance.BorderSize = 0;
+            this.btnAccess.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAccess.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold);
+            this.btnAccess.Location = new System.Drawing.Point(12, 49);
+            this.btnAccess.Name = "btnAccess";
+            this.btnAccess.Size = new System.Drawing.Size(210, 100);
+            this.btnAccess.TabIndex = 1;
+            this.btnAccess.Text = "Truy Cập Hệ Thống";
+            this.btnAccess.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // btnRecovery
             // 
-            this.button2.Font = new System.Drawing.Font("Arial", 8.25F);
-            this.button2.Location = new System.Drawing.Point(242, 49);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(175, 120);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Khôi Phục Dữ Liệu";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnRecovery.BackColor = System.Drawing.Color.DodgerBlue;
+            this.btnRecovery.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnRecovery.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnRecovery.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRecovery.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold);
+            this.btnRecovery.ForeColor = System.Drawing.Color.White;
+            this.btnRecovery.Location = new System.Drawing.Point(242, 49);
+            this.btnRecovery.Name = "btnRecovery";
+            this.btnRecovery.Size = new System.Drawing.Size(210, 100);
+            this.btnRecovery.TabIndex = 1;
+            this.btnRecovery.Text = "Khôi Phục Dữ Liệu";
+            this.btnRecovery.UseVisualStyleBackColor = false;
             // 
             // button3
             // 
-            this.button3.Font = new System.Drawing.Font("Arial", 8.25F);
-            this.button3.Location = new System.Drawing.Point(21, 200);
+            this.button3.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Arial", 10F);
+            this.button3.Location = new System.Drawing.Point(12, 176);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(175, 120);
+            this.button3.Size = new System.Drawing.Size(210, 100);
             this.button3.TabIndex = 1;
             this.button3.Text = "Thiết Lập Cấu Hình";
             this.button3.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // btnExit
             // 
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Arial", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(242, 200);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(175, 120);
-            this.button4.TabIndex = 1;
-            this.button4.Text = "Thoát Chương Trình";
-            this.button4.UseVisualStyleBackColor = false;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.btnExit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btnExit.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnExit.FlatAppearance.BorderSize = 0;
+            this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnExit.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold);
+            this.btnExit.ForeColor = System.Drawing.Color.LightGray;
+            this.btnExit.Location = new System.Drawing.Point(242, 176);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(210, 100);
+            this.btnExit.TabIndex = 1;
+            this.btnExit.Text = "Thoát Chương Trình";
+            this.btnExit.UseVisualStyleBackColor = false;
+            this.btnExit.Click += new System.EventHandler(this.button4_Click);
             // 
             // frmWelcome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(450, 374);
-            this.Controls.Add(this.button4);
+            this.ClientSize = new System.Drawing.Size(467, 294);
+            this.Controls.Add(this.btnExit);
             this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnRecovery);
+            this.Controls.Add(this.btnAccess);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "frmWelcome";
@@ -331,10 +342,10 @@
         private System.Windows.Forms.ToolStripMenuItem nhậpDữLiệuToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem chứcNăngToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem chươngTrìnhToolStripMenuItem;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnAccess;
+        private System.Windows.Forms.Button btnRecovery;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btnExit;
     }
 }
 

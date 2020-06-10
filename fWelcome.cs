@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace DuAnPhanMemQuanLyTiemCafe
 {
-    public partial class frmWelcome : Form
+    public partial class fWelcome : Form
     {
-        public frmWelcome()
+        public fWelcome()
         {
             InitializeComponent();
         }

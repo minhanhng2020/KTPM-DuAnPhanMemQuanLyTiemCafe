@@ -94,29 +94,29 @@
     <Compile Include="fProducts.Designer.cs">
       <DependentUpon>fProducts.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmCheckout.cs">
+    <Compile Include="fCheckout.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmCheckout.Designer.cs">
-      <DependentUpon>frmCheckout.cs</DependentUpon>
+    <Compile Include="fCheckout.Designer.cs">
+      <DependentUpon>fCheckout.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmLogin.cs">
+    <Compile Include="fLogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmLogin.Designer.cs">
-      <DependentUpon>frmLogin.cs</DependentUpon>
+    <Compile Include="fLogin.Designer.cs">
+      <DependentUpon>fLogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmManagement.cs">
+    <Compile Include="fManagement.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmManagement.Designer.cs">
-      <DependentUpon>frmManagement.cs</DependentUpon>
+    <Compile Include="fManagement.Designer.cs">
+      <DependentUpon>fManagement.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmWelcome.cs">
+    <Compile Include="fWelcome.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmWelcome.Designer.cs">
-      <DependentUpon>frmWelcome.cs</DependentUpon>
+    <Compile Include="fWelcome.Designer.cs">
+      <DependentUpon>fWelcome.cs</DependentUpon>
     </Compile>
     <Compile Include="fSalesAnalysis.cs">
       <SubType>Form</SubType>
@@ -147,17 +147,17 @@
     <EmbeddedResource Include="fProducts.resx">
       <DependentUpon>fProducts.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmCheckout.resx">
-      <DependentUpon>frmCheckout.cs</DependentUpon>
+    <EmbeddedResource Include="fCheckout.resx">
+      <DependentUpon>fCheckout.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmLogin.resx">
-      <DependentUpon>frmLogin.cs</DependentUpon>
+    <EmbeddedResource Include="fLogin.resx">
+      <DependentUpon>fLogin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmManagement.resx">
-      <DependentUpon>frmManagement.cs</DependentUpon>
+    <EmbeddedResource Include="fManagement.resx">
+      <DependentUpon>fManagement.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmWelcome.resx">
-      <DependentUpon>frmWelcome.cs</DependentUpon>
+    <EmbeddedResource Include="fWelcome.resx">
+      <DependentUpon>fWelcome.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="fSalesAnalysis.resx">
       <DependentUpon>fSalesAnalysis.cs</DependentUpon>

@@ -1,6 +1,6 @@
 ﻿namespace DuAnPhanMemQuanLyTiemCafe
 {
-    partial class frmCheckout
+    partial class fCheckout
     {
         /// <summary>
         /// Required designer variable.
