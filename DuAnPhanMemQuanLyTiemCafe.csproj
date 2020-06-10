@@ -138,6 +138,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="fCategories.resx">
+      <DependentUpon>fCategories.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="fOrders.resx">
       <DependentUpon>fOrders.cs</DependentUpon>
     </EmbeddedResource>
