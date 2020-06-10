@@ -1,6 +1,6 @@
 ﻿namespace DuAnPhanMemQuanLyTiemCafe
 {
-    partial class fManagement
+    partial class fTableManagement
     {
         /// <summary>
         /// Required designer variable.

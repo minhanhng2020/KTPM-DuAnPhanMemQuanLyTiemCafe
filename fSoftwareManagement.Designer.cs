@@ -1,6 +1,6 @@
 ﻿namespace DuAnPhanMemQuanLyTiemCafe
 {
-    partial class fWelcome
+    partial class fSoftwareManagement
     {
         /// <summary>
         /// Required designer variable.
@@ -153,31 +153,31 @@
             this.âmThanhToolStripMenuItem,
             this.khácToolStripMenuItem});
             this.giaoDiệnToolStripMenuItem.Name = "giaoDiệnToolStripMenuItem";
-            this.giaoDiệnToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.giaoDiệnToolStripMenuItem.Size = new System.Drawing.Size(151, 22);
             this.giaoDiệnToolStripMenuItem.Text = "Hệ Thống";
             // 
             // hìnhẢnhToolStripMenuItem
             // 
             this.hìnhẢnhToolStripMenuItem.Name = "hìnhẢnhToolStripMenuItem";
-            this.hìnhẢnhToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.hìnhẢnhToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
             this.hìnhẢnhToolStripMenuItem.Text = "Hình Ảnh";
             // 
             // âmThanhToolStripMenuItem
             // 
             this.âmThanhToolStripMenuItem.Name = "âmThanhToolStripMenuItem";
-            this.âmThanhToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.âmThanhToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
             this.âmThanhToolStripMenuItem.Text = "Âm Thanh";
             // 
             // khácToolStripMenuItem
             // 
             this.khácToolStripMenuItem.Name = "khácToolStripMenuItem";
-            this.khácToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.khácToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
             this.khácToolStripMenuItem.Text = "Khác";
             // 
             // chứcNăngToolStripMenuItem
             // 
             this.chứcNăngToolStripMenuItem.Name = "chứcNăngToolStripMenuItem";
-            this.chứcNăngToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.chứcNăngToolStripMenuItem.Size = new System.Drawing.Size(151, 22);
             this.chứcNăngToolStripMenuItem.Text = "Chức Năng";
             // 
             // trợGiúpToolStripMenuItem
@@ -249,7 +249,7 @@
             this.btnAccess.Name = "btnAccess";
             this.btnAccess.Size = new System.Drawing.Size(210, 100);
             this.btnAccess.TabIndex = 1;
-            this.btnAccess.Text = "Truy Cập Hệ Thống";
+            this.btnAccess.Text = "Trích Xuất Thông Tin";
             this.btnAccess.UseVisualStyleBackColor = false;
             // 
             // btnRecovery
@@ -295,7 +295,7 @@
             this.btnExit.UseVisualStyleBackColor = false;
             this.btnExit.Click += new System.EventHandler(this.button4_Click);
             // 
-            // frmWelcome
+            // fWelcome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -306,7 +306,7 @@
             this.Controls.Add(this.btnAccess);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Name = "frmWelcome";
+            this.Name = "fWelcome";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Chương Trình Quản Lý Tiệm Cafe";
             this.menuStrip1.ResumeLayout(false);
