@@ -65,8 +65,8 @@
             this.comboBox8 = new System.Windows.Forms.ComboBox();
             this.comboBox9 = new System.Windows.Forms.ComboBox();
             this.comboBox10 = new System.Windows.Forms.ComboBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnExit = new System.Windows.Forms.Button();
+            this.btnReturnHome = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -400,31 +400,32 @@
             this.comboBox10.Size = new System.Drawing.Size(239, 24);
             this.comboBox10.TabIndex = 27;
             // 
-            // button1
+            // btnExit
             // 
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(350, 367);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(200, 50);
-            this.button1.TabIndex = 26;
-            this.button1.Text = "Thoát Khỏi Chương Trình";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnExit.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnExit.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnExit.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExit.Location = new System.Drawing.Point(350, 367);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(200, 50);
+            this.btnExit.TabIndex = 26;
+            this.btnExit.Text = "Thoát Khỏi Chương Trình";
+            this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // btnReturnHome
             // 
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(144, 367);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(200, 50);
-            this.button2.TabIndex = 26;
-            this.button2.Text = "Trở Về Màn Hình Chính";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnReturnHome.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnReturnHome.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnReturnHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnReturnHome.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReturnHome.Location = new System.Drawing.Point(144, 367);
+            this.btnReturnHome.Name = "btnReturnHome";
+            this.btnReturnHome.Size = new System.Drawing.Size(200, 50);
+            this.btnReturnHome.TabIndex = 26;
+            this.btnReturnHome.Text = "Trở Về Màn Hình Chính";
+            this.btnReturnHome.UseVisualStyleBackColor = true;
             // 
             // fSuppliers
             // 
@@ -441,8 +442,8 @@
             this.Controls.Add(this.comboBox3);
             this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnReturnHome);
+            this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnRemSup);
             this.Controls.Add(this.btnEditSup);
             this.Controls.Add(this.btnAddSup);
@@ -511,7 +512,7 @@
         private System.Windows.Forms.ComboBox comboBox8;
         private System.Windows.Forms.ComboBox comboBox9;
         private System.Windows.Forms.ComboBox comboBox10;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnExit;
+        private System.Windows.Forms.Button btnReturnHome;
     }
 }
