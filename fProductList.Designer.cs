@@ -34,6 +34,11 @@
             this.theoMãToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.theoTênToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.theoNgàyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.theoNgàyToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.theoTuầnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.theoThángToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.theoNămToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tùyChỉnhToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.theoXuấtXứToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tùyChỉnhToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.thêmSảnPhẩmToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -49,11 +54,6 @@
             this.gỡLỗiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.báoCáoLỗiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.giớiThiệuVềChươngTrìnhToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.theoNgàyToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.theoTuầnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.theoThángToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.theoNămToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.tùyChỉnhToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -64,7 +64,7 @@
             this.trợGiúpToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(512, 26);
+            this.menuStrip1.Size = new System.Drawing.Size(952, 26);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -117,6 +117,36 @@
             this.theoNgàyToolStripMenuItem.Name = "theoNgàyToolStripMenuItem";
             this.theoNgàyToolStripMenuItem.Size = new System.Drawing.Size(176, 22);
             this.theoNgàyToolStripMenuItem.Text = "Theo Thời Gian";
+            // 
+            // theoNgàyToolStripMenuItem1
+            // 
+            this.theoNgàyToolStripMenuItem1.Name = "theoNgàyToolStripMenuItem1";
+            this.theoNgàyToolStripMenuItem1.Size = new System.Drawing.Size(157, 22);
+            this.theoNgàyToolStripMenuItem1.Text = "Theo Ngày";
+            // 
+            // theoTuầnToolStripMenuItem
+            // 
+            this.theoTuầnToolStripMenuItem.Name = "theoTuầnToolStripMenuItem";
+            this.theoTuầnToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
+            this.theoTuầnToolStripMenuItem.Text = "Theo Tuần";
+            // 
+            // theoThángToolStripMenuItem
+            // 
+            this.theoThángToolStripMenuItem.Name = "theoThángToolStripMenuItem";
+            this.theoThángToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
+            this.theoThángToolStripMenuItem.Text = "Theo Tháng";
+            // 
+            // theoNămToolStripMenuItem
+            // 
+            this.theoNămToolStripMenuItem.Name = "theoNămToolStripMenuItem";
+            this.theoNămToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
+            this.theoNămToolStripMenuItem.Text = "Theo Năm";
+            // 
+            // tùyChỉnhToolStripMenuItem1
+            // 
+            this.tùyChỉnhToolStripMenuItem1.Name = "tùyChỉnhToolStripMenuItem1";
+            this.tùyChỉnhToolStripMenuItem1.Size = new System.Drawing.Size(157, 22);
+            this.tùyChỉnhToolStripMenuItem1.Text = "Tùy Chỉnh";
             // 
             // theoXuấtXứToolStripMenuItem
             // 
@@ -216,41 +246,11 @@
             this.giớiThiệuVềChươngTrìnhToolStripMenuItem.Size = new System.Drawing.Size(254, 22);
             this.giớiThiệuVềChươngTrìnhToolStripMenuItem.Text = "Giới Thiệu Về Chương Trình";
             // 
-            // theoNgàyToolStripMenuItem1
-            // 
-            this.theoNgàyToolStripMenuItem1.Name = "theoNgàyToolStripMenuItem1";
-            this.theoNgàyToolStripMenuItem1.Size = new System.Drawing.Size(157, 22);
-            this.theoNgàyToolStripMenuItem1.Text = "Theo Ngày";
-            // 
-            // theoTuầnToolStripMenuItem
-            // 
-            this.theoTuầnToolStripMenuItem.Name = "theoTuầnToolStripMenuItem";
-            this.theoTuầnToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
-            this.theoTuầnToolStripMenuItem.Text = "Theo Tuần";
-            // 
-            // theoThángToolStripMenuItem
-            // 
-            this.theoThángToolStripMenuItem.Name = "theoThángToolStripMenuItem";
-            this.theoThángToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
-            this.theoThángToolStripMenuItem.Text = "Theo Tháng";
-            // 
-            // theoNămToolStripMenuItem
-            // 
-            this.theoNămToolStripMenuItem.Name = "theoNămToolStripMenuItem";
-            this.theoNămToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
-            this.theoNămToolStripMenuItem.Text = "Theo Năm";
-            // 
-            // tùyChỉnhToolStripMenuItem1
-            // 
-            this.tùyChỉnhToolStripMenuItem1.Name = "tùyChỉnhToolStripMenuItem1";
-            this.tùyChỉnhToolStripMenuItem1.Size = new System.Drawing.Size(157, 22);
-            this.tùyChỉnhToolStripMenuItem1.Text = "Tùy Chỉnh";
-            // 
             // fProductList
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(512, 268);
+            this.ClientSize = new System.Drawing.Size(952, 448);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "fProductList";
