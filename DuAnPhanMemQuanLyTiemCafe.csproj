@@ -188,10 +188,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BUS\BUS.csproj">
-      <Project>{BAFE5F2B-C7D8-4577-A54C-05B5B8F49CD0}</Project>
-      <Name>BUS</Name>
-    </ProjectReference>
     <ProjectReference Include="DTO\DTO.csproj">
       <Project>{284B8508-2D33-415A-8A57-DC944ED28746}</Project>
       <Name>DTO</Name>
