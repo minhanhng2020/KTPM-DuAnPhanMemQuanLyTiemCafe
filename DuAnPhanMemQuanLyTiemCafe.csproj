@@ -188,8 +188,16 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="BUS\BUS.csproj">
+      <Project>{55087976-3F70-42C0-9EB1-CD2862A648B3}</Project>
+      <Name>BUS</Name>
+    </ProjectReference>
+    <ProjectReference Include="DAO\DAO.csproj">
+      <Project>{F63202A5-3177-44A9-9CC1-0AFD64FCF67B}</Project>
+      <Name>DAO</Name>
+    </ProjectReference>
     <ProjectReference Include="DTO\DTO.csproj">
-      <Project>{284B8508-2D33-415A-8A57-DC944ED28746}</Project>
+      <Project>{B738A031-38CC-47C8-9C2B-7BAFC0F7B366}</Project>
       <Name>DTO</Name>
     </ProjectReference>
   </ItemGroup>

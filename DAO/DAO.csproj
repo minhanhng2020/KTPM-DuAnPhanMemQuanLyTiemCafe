@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{432C156D-E1B1-4B20-8F8F-BA42263BE9E4}</ProjectGuid>
+    <ProjectGuid>{F63202A5-3177-44A9-9CC1-0AFD64FCF67B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>DAO</RootNamespace>
@@ -45,7 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DTO\DTO.csproj">
-      <Project>{284B8508-2D33-415A-8A57-DC944ED28746}</Project>
+      <Project>{B738A031-38CC-47C8-9C2B-7BAFC0F7B366}</Project>
       <Name>DTO</Name>
     </ProjectReference>
   </ItemGroup>
