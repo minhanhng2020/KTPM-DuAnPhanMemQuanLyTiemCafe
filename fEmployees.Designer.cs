@@ -58,7 +58,18 @@
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dtpHiredTime = new System.Windows.Forms.DateTimePicker();
+            this.label1 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.label5 = new System.Windows.Forms.Label();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -240,26 +251,97 @@
             resources.ApplyResources(this.textBox3, "textBox3");
             this.textBox3.Name = "textBox3";
             // 
-            // dateTimePicker1
+            // dtpHiredTime
             // 
-            resources.ApplyResources(this.dateTimePicker1, "dateTimePicker1");
-            this.dateTimePicker1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker1.Name = "dateTimePicker1";
+            resources.ApplyResources(this.dtpHiredTime, "dtpHiredTime");
+            this.dtpHiredTime.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.dtpHiredTime.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpHiredTime.Name = "dtpHiredTime";
+            // 
+            // label1
+            // 
+            resources.ApplyResources(this.label1, "label1");
+            this.label1.Name = "label1";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            resources.ApplyResources(this.comboBox1, "comboBox1");
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Name = "comboBox1";
+            // 
+            // textBox4
+            // 
+            resources.ApplyResources(this.textBox4, "textBox4");
+            this.textBox4.Name = "textBox4";
+            // 
+            // label2
+            // 
+            resources.ApplyResources(this.label2, "label2");
+            this.label2.Name = "label2";
+            // 
+            // label3
+            // 
+            resources.ApplyResources(this.label3, "label3");
+            this.label3.Name = "label3";
+            // 
+            // textBox5
+            // 
+            resources.ApplyResources(this.textBox5, "textBox5");
+            this.textBox5.Name = "textBox5";
+            // 
+            // label4
+            // 
+            resources.ApplyResources(this.label4, "label4");
+            this.label4.Name = "label4";
+            // 
+            // textBox6
+            // 
+            resources.ApplyResources(this.textBox6, "textBox6");
+            this.textBox6.Name = "textBox6";
+            // 
+            // panel1
+            // 
+            resources.ApplyResources(this.panel1, "panel1");
+            this.panel1.Name = "panel1";
+            // 
+            // label5
+            // 
+            resources.ApplyResources(this.label5, "label5");
+            this.label5.Name = "label5";
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            resources.ApplyResources(this.comboBox2, "comboBox2");
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Name = "comboBox2";
             // 
             // fEmployees
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.dateTimePicker1);
+            this.BackColor = System.Drawing.Color.White;
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.dtpHiredTime);
             this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.textBox4);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.comboBox2);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.comboBox4);
             this.Controls.Add(this.btnReturnHome);
             this.Controls.Add(this.btnEdiPro);
             this.Controls.Add(this.btnAddPro);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.lblQPU);
             this.Controls.Add(this.lblJntDate);
             this.Controls.Add(this.lblEmpLName);
@@ -305,6 +387,17 @@
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker dtpHiredTime;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.ComboBox comboBox2;
     }
 }

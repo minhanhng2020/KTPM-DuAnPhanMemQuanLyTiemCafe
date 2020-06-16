@@ -23,6 +23,7 @@ namespace DuAnPhanMemQuanLyTiemCafe
 
         private void btnReturnHome_Click(object sender, EventArgs e)
         {
+            //this.Hide();
             this.Close();
         }
     }
