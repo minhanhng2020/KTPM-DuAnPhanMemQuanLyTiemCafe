@@ -6,6 +6,8 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using BUS;
+//using DAO;
 
 namespace DuAnPhanMemQuanLyTiemCafe
 {
@@ -38,6 +40,18 @@ namespace DuAnPhanMemQuanLyTiemCafe
                     txtPassword.ResetText();
                 }
             }
+        }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            string username = txtUsername.Text;
+            string password = txtPassword.Text;
+
+            CheckUsersBUS c = new CheckUsersBUS();
+            //if (c.ch(username, password) == true)
+            //    MessageBox.Show("Đăng Nhập Thành Công.", "Đăng Nhập Hệ Thống", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            //else
+            //    MessageBox.Show("Đã Xảy Ra Lỗi. Vui Lòng Thử Lại...", "Đăng Nhập Hệ Thống", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
         }
     }
 }

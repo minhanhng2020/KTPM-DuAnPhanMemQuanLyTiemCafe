@@ -41,5 +41,39 @@ namespace DAO
                 cn.Close();
             }
         }
+
+        public int MyExecuteNonQuery(string sql)
+        {
+            SqlCommand cmd = new SqlCommand();
+            cmd.Connection = cn;
+            cmd.CommandText = sql;
+            cmd.CommandType = CommandType.Text;
+
+            int sodong = cmd.ExecuteNonQuery();
+            return sodong;
+        }
+
+        public SqlDataReader MyExecuteReader(string sql)
+        {
+            SqlCommand cmd = new SqlCommand();
+            cmd.Connection = cn;
+            cmd.CommandText = sql;
+            cmd.CommandType = CommandType.Text;
+
+            SqlDataReader dr = cmd.ExecuteReader();
+            return dr;
+        }
+
+        public DataTable GetTable(string sql)
+        {
+            SqlDataAdapter da = new SqlDataAdapter(sql, cn);
+            DataTable dt = new DataTable();
+
+            int sodong = da.Fill(dt);
+            if (sodong>0)
+                return dt;
+            else
+                return null;
+        }
     }
 }
