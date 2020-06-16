@@ -15,5 +15,15 @@ namespace DuAnPhanMemQuanLyTiemCafe
         {
             InitializeComponent();
         }
+
+        private void đóngChứcNăngNàyToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnReturnHome_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

@@ -6,15 +6,12 @@ using DAO;
 
 namespace BUS
 {
-    public class CheckUsersBUS
+    public class CheckLoginBUS
     {
-        public class chkusrs
-        {
             CheckLogin c = new CheckLogin();
-            public bool Login(string username, string password)
+            public bool ChckLgn(string username, string password)
             {
-                return c.ChckLgn(username, password);
+                return c.cLgn(username, password);
             }
-        }
     }
 }

@@ -9,7 +9,7 @@ namespace DAO
 {
     public class CheckLogin:DataProvider
     {
-        public bool ChckLgn(string username, string password)
+        public bool cLgn(string username, string password)
         {
             Connect();
 
