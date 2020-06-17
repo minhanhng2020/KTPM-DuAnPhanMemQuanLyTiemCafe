@@ -15,5 +15,12 @@ namespace DuAnPhanMemQuanLyTiemCafe
         {
             InitializeComponent();
         }
+
+        private void btnReturnHome_Click(object sender, EventArgs e)
+        {
+            //this.hide();
+            //Dang viet cau lenh dung de goi form fSoftwareManagement...
+            this.Close(); //Cai nay dung de thoat chuong trinh tam thoi va se xoa khi xay dung xong chuc nang mo lai form fSoftwareManagement.
+        }
     }
 }

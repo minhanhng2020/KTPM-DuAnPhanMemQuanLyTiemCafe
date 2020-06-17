@@ -310,6 +310,7 @@
             this.btnReturnHome.TabIndex = 101;
             this.btnReturnHome.Text = "Trở Về Màn Hình Chính";
             this.btnReturnHome.UseVisualStyleBackColor = true;
+            this.btnReturnHome.Click += new System.EventHandler(this.btnReturnHome_Click);
             // 
             // btnChangCsm
             // 

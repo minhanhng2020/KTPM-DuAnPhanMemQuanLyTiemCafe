@@ -49,6 +49,8 @@
             this.chứcNăngToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.chươngTrìnhToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.báoCáoLỗiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.label1 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -59,7 +61,7 @@
             this.trợGiúpToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(660, 26);
+            this.menuStrip1.Size = new System.Drawing.Size(1008, 26);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -207,15 +209,41 @@
             this.báoCáoLỗiToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
             this.báoCáoLỗiToolStripMenuItem.Text = "Báo Cáo Lỗi";
             // 
-            // frmCheckout
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Arial", 30F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Red;
+            this.label1.Location = new System.Drawing.Point(107, 148);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(792, 34);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Xin Lỗi, Chức Năng Này Đang Trong Giai Đoạn Bảo Trì.";
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Bisque;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Arial", 20F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Pixel);
+            this.button1.ForeColor = System.Drawing.Color.Blue;
+            this.button1.Location = new System.Drawing.Point(762, 239);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(234, 100);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "Thoát Chương Trình";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // fCheckout
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(660, 392);
+            this.ClientSize = new System.Drawing.Size(1008, 351);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Name = "frmCheckout";
+            this.Name = "fCheckout";
             this.Text = "Thanh Toán - Chương Trình Quản Lý Tiệm Cafe";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
@@ -247,5 +275,7 @@
         private System.Windows.Forms.ToolStripMenuItem chứcNăngToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem chươngTrìnhToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem báoCáoLỗiToolStripMenuItem;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button1;
     }
 }
