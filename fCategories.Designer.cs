@@ -61,7 +61,16 @@
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
+            this.dgvSupplier = new System.Windows.Forms.DataGridView();
+            this.IdColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.NameColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.AddressColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.DelColumn = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.EditColumn = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.label5 = new System.Windows.Forms.Label();
+            this.textBox6 = new System.Windows.Forms.TextBox();
             this.menuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvSupplier)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -72,7 +81,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(516, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1328, 24);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -191,7 +200,7 @@
             this.btnReturnHome.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.btnReturnHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnReturnHome.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnReturnHome.Location = new System.Drawing.Point(123, 266);
+            this.btnReturnHome.Location = new System.Drawing.Point(938, 289);
             this.btnReturnHome.Name = "btnReturnHome";
             this.btnReturnHome.Size = new System.Drawing.Size(192, 50);
             this.btnReturnHome.TabIndex = 71;
@@ -204,7 +213,7 @@
             this.btnExit.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnExit.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExit.Location = new System.Drawing.Point(321, 266);
+            this.btnExit.Location = new System.Drawing.Point(1136, 289);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(192, 50);
             this.btnExit.TabIndex = 72;
@@ -218,7 +227,7 @@
             this.btnRemCat.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.btnRemCat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRemCat.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRemCat.Location = new System.Drawing.Point(198, 200);
+            this.btnRemCat.Location = new System.Drawing.Point(752, 289);
             this.btnRemCat.Name = "btnRemCat";
             this.btnRemCat.Size = new System.Drawing.Size(180, 50);
             this.btnRemCat.TabIndex = 73;
@@ -231,7 +240,7 @@
             this.btnEdiCat.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.btnEdiCat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEdiCat.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEdiCat.Location = new System.Drawing.Point(12, 200);
+            this.btnEdiCat.Location = new System.Drawing.Point(566, 289);
             this.btnEdiCat.Name = "btnEdiCat";
             this.btnEdiCat.Size = new System.Drawing.Size(180, 50);
             this.btnEdiCat.TabIndex = 70;
@@ -244,7 +253,7 @@
             this.btnAddCat.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.btnAddCat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAddCat.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAddCat.Location = new System.Drawing.Point(12, 144);
+            this.btnAddCat.Location = new System.Drawing.Point(194, 289);
             this.btnAddCat.Name = "btnAddCat";
             this.btnAddCat.Size = new System.Drawing.Size(180, 50);
             this.btnAddCat.TabIndex = 69;
@@ -257,7 +266,7 @@
             this.btnViewCat.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.btnViewCat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnViewCat.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnViewCat.Location = new System.Drawing.Point(198, 144);
+            this.btnViewCat.Location = new System.Drawing.Point(380, 289);
             this.btnViewCat.Name = "btnViewCat";
             this.btnViewCat.Size = new System.Drawing.Size(180, 50);
             this.btnViewCat.TabIndex = 68;
@@ -267,45 +276,50 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 35);
+            this.label1.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(18, 128);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(137, 16);
+            this.label1.Size = new System.Drawing.Size(142, 16);
             this.label1.TabIndex = 74;
             this.label1.Text = "Tên Loại Sản Phẩm:";
             // 
             // lblCateDes
             // 
             this.lblCateDes.AutoSize = true;
-            this.lblCateDes.Location = new System.Drawing.Point(12, 64);
+            this.lblCateDes.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCateDes.Location = new System.Drawing.Point(18, 157);
             this.lblCateDes.Name = "lblCateDes";
-            this.lblCateDes.Size = new System.Drawing.Size(52, 16);
+            this.lblCateDes.Size = new System.Drawing.Size(54, 16);
             this.lblCateDes.TabIndex = 75;
             this.lblCateDes.Text = "Mô Tả:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 93);
+            this.label2.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(18, 186);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(106, 16);
+            this.label2.Size = new System.Drawing.Size(109, 16);
             this.label2.TabIndex = 74;
             this.label2.Text = "Tên Sản Phẩm:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 122);
+            this.label3.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(18, 215);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(75, 16);
+            this.label3.Size = new System.Drawing.Size(78, 16);
             this.label3.TabIndex = 74;
             this.label3.Text = "Quy Cách:";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(342, 122);
+            this.label4.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(348, 211);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(65, 16);
+            this.label4.Size = new System.Drawing.Size(68, 16);
             this.label4.TabIndex = 74;
             this.label4.Text = "Đơn Giá:";
             // 
@@ -313,9 +327,10 @@
             // 
             this.checkBox1.AutoSize = true;
             this.checkBox1.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.checkBox1.Location = new System.Drawing.Point(342, 89);
+            this.checkBox1.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox1.Location = new System.Drawing.Point(369, 240);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(150, 20);
+            this.checkBox1.Size = new System.Drawing.Size(162, 20);
             this.checkBox1.TabIndex = 76;
             this.checkBox1.Text = "Ngưng Kinh Doanh";
             this.checkBox1.UseVisualStyleBackColor = true;
@@ -323,48 +338,122 @@
             // textBox1
             // 
             this.textBox1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.textBox1.Location = new System.Drawing.Point(156, 28);
+            this.textBox1.Location = new System.Drawing.Point(162, 121);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(182, 23);
+            this.textBox1.Size = new System.Drawing.Size(357, 23);
             this.textBox1.TabIndex = 77;
             // 
             // textBox2
             // 
             this.textBox2.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.textBox2.Location = new System.Drawing.Point(156, 57);
+            this.textBox2.Location = new System.Drawing.Point(162, 150);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(180, 23);
+            this.textBox2.Size = new System.Drawing.Size(357, 23);
             this.textBox2.TabIndex = 77;
             // 
             // textBox3
             // 
             this.textBox3.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.textBox3.Location = new System.Drawing.Point(156, 86);
+            this.textBox3.Location = new System.Drawing.Point(162, 179);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(180, 23);
+            this.textBox3.Size = new System.Drawing.Size(357, 23);
             this.textBox3.TabIndex = 77;
             // 
             // textBox4
             // 
             this.textBox4.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.textBox4.Location = new System.Drawing.Point(413, 115);
+            this.textBox4.Location = new System.Drawing.Point(414, 208);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 23);
+            this.textBox4.Size = new System.Drawing.Size(105, 23);
             this.textBox4.TabIndex = 77;
             // 
             // textBox5
             // 
             this.textBox5.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.textBox5.Location = new System.Drawing.Point(156, 115);
+            this.textBox5.Location = new System.Drawing.Point(162, 208);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(180, 23);
             this.textBox5.TabIndex = 77;
+            // 
+            // dgvSupplier
+            // 
+            this.dgvSupplier.BackgroundColor = System.Drawing.SystemColors.Info;
+            this.dgvSupplier.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvSupplier.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.IdColumn,
+            this.NameColumn,
+            this.AddressColumn,
+            this.DelColumn,
+            this.EditColumn});
+            this.dgvSupplier.GridColor = System.Drawing.SystemColors.Info;
+            this.dgvSupplier.Location = new System.Drawing.Point(555, 27);
+            this.dgvSupplier.Name = "dgvSupplier";
+            this.dgvSupplier.RowTemplate.Height = 24;
+            this.dgvSupplier.Size = new System.Drawing.Size(773, 257);
+            this.dgvSupplier.TabIndex = 78;
+            // 
+            // IdColumn
+            // 
+            this.IdColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.IdColumn.DataPropertyName = "Id";
+            this.IdColumn.HeaderText = "Mã Loại Sản Phẩm";
+            this.IdColumn.Name = "IdColumn";
+            this.IdColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            // 
+            // NameColumn
+            // 
+            this.NameColumn.DataPropertyName = "Name";
+            this.NameColumn.HeaderText = "Tên Loại Sản Phẩm";
+            this.NameColumn.Name = "NameColumn";
+            this.NameColumn.Width = 200;
+            // 
+            // AddressColumn
+            // 
+            this.AddressColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.AddressColumn.DataPropertyName = "Address";
+            this.AddressColumn.HeaderText = "Địa Chỉ";
+            this.AddressColumn.Name = "AddressColumn";
+            // 
+            // DelColumn
+            // 
+            this.DelColumn.HeaderText = "Xóa";
+            this.DelColumn.Name = "DelColumn";
+            this.DelColumn.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.DelColumn.Width = 35;
+            // 
+            // EditColumn
+            // 
+            this.EditColumn.HeaderText = "Sửa";
+            this.EditColumn.Name = "EditColumn";
+            this.EditColumn.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.EditColumn.Width = 35;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(18, 244);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(133, 16);
+            this.label5.TabIndex = 74;
+            this.label5.Text = "Số Lượng Đã Bán:";
+            // 
+            // textBox6
+            // 
+            this.textBox6.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.textBox6.Location = new System.Drawing.Point(162, 237);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(180, 23);
+            this.textBox6.TabIndex = 77;
             // 
             // fCategories
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(516, 322);
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(1328, 351);
+            this.Controls.Add(this.dgvSupplier);
+            this.Controls.Add(this.textBox6);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.textBox3);
@@ -374,6 +463,7 @@
             this.Controls.Add(this.lblCateDes);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnReturnHome);
@@ -389,6 +479,7 @@
             this.Text = "Loại Sản Phẩm - Chương Trình Quản Lý Tiệm Cafe";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvSupplier)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -429,5 +520,13 @@
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.DataGridView dgvSupplier;
+        private System.Windows.Forms.DataGridViewTextBoxColumn IdColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn NameColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn AddressColumn;
+        private System.Windows.Forms.DataGridViewButtonColumn DelColumn;
+        private System.Windows.Forms.DataGridViewButtonColumn EditColumn;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox textBox6;
     }
 }
