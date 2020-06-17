@@ -36,8 +36,8 @@
             this.giớiThiệuChứcNăngToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.trợGiúpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.btnReturnHome = new System.Windows.Forms.Button();
-            this.btnEdiPro = new System.Windows.Forms.Button();
-            this.btnAddPro = new System.Windows.Forms.Button();
+            this.btnChangEmp = new System.Windows.Forms.Button();
+            this.btnAddEmp = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.lblQPU = new System.Windows.Forms.Label();
             this.lblJntDate = new System.Windows.Forms.Label();
@@ -70,6 +70,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.btnExptDT = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -119,21 +120,21 @@
             this.btnReturnHome.UseVisualStyleBackColor = true;
             this.btnReturnHome.Click += new System.EventHandler(this.btnReturnHome_Click);
             // 
-            // btnEdiPro
+            // btnChangEmp
             // 
-            this.btnEdiPro.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnEdiPro.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            resources.ApplyResources(this.btnEdiPro, "btnEdiPro");
-            this.btnEdiPro.Name = "btnEdiPro";
-            this.btnEdiPro.UseVisualStyleBackColor = true;
+            this.btnChangEmp.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnChangEmp.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            resources.ApplyResources(this.btnChangEmp, "btnChangEmp");
+            this.btnChangEmp.Name = "btnChangEmp";
+            this.btnChangEmp.UseVisualStyleBackColor = true;
             // 
-            // btnAddPro
+            // btnAddEmp
             // 
-            this.btnAddPro.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnAddPro.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            resources.ApplyResources(this.btnAddPro, "btnAddPro");
-            this.btnAddPro.Name = "btnAddPro";
-            this.btnAddPro.UseVisualStyleBackColor = true;
+            this.btnAddEmp.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAddEmp.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            resources.ApplyResources(this.btnAddEmp, "btnAddEmp");
+            this.btnAddEmp.Name = "btnAddEmp";
+            this.btnAddEmp.UseVisualStyleBackColor = true;
             // 
             // textBox1
             // 
@@ -317,6 +318,14 @@
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Name = "comboBox2";
             // 
+            // btnExptDT
+            // 
+            this.btnExptDT.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnExptDT.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            resources.ApplyResources(this.btnExptDT, "btnExptDT");
+            this.btnExptDT.Name = "btnExptDT";
+            this.btnExptDT.UseVisualStyleBackColor = true;
+            // 
             // fEmployees
             // 
             resources.ApplyResources(this, "$this");
@@ -334,8 +343,9 @@
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.comboBox4);
             this.Controls.Add(this.btnReturnHome);
-            this.Controls.Add(this.btnEdiPro);
-            this.Controls.Add(this.btnAddPro);
+            this.Controls.Add(this.btnExptDT);
+            this.Controls.Add(this.btnChangEmp);
+            this.Controls.Add(this.btnAddEmp);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label3);
@@ -365,8 +375,8 @@
         private System.Windows.Forms.ToolStripMenuItem giớiThiệuChứcNăngToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem trợGiúpToolStripMenuItem;
         private System.Windows.Forms.Button btnReturnHome;
-        private System.Windows.Forms.Button btnEdiPro;
-        private System.Windows.Forms.Button btnAddPro;
+        private System.Windows.Forms.Button btnChangEmp;
+        private System.Windows.Forms.Button btnAddEmp;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label lblQPU;
         private System.Windows.Forms.Label lblJntDate;
@@ -399,5 +409,6 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.Button btnExptDT;
     }
 }

@@ -124,10 +124,13 @@
   <data name="comboBox4.Location" type="System.Drawing.Point, System.Drawing">
     <value>177, 141</value>
   </data>
-  <data name="comboBox4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>290, 24</value>
-  </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="comboBox4.MaxLength" type="System.Int32, mscorlib">
+    <value>100000</value>
+  </data>
+  <data name="comboBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 24</value>
+  </data>
   <data name="comboBox4.TabIndex" type="System.Int32, mscorlib">
     <value>81</value>
   </data>
@@ -195,8 +198,11 @@
   <data name="btnReturnHome.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 7.8pt</value>
   </data>
+  <data name="btnReturnHome.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="btnReturnHome.Location" type="System.Drawing.Point, System.Drawing">
-    <value>293, 341</value>
+    <value>821, 289</value>
   </data>
   <data name="btnReturnHome.Size" type="System.Drawing.Size, System.Drawing">
     <value>175, 50</value>
@@ -219,65 +225,65 @@
   <data name="&gt;&gt;btnReturnHome.ZOrder" xml:space="preserve">
     <value>11</value>
   </data>
-  <data name="btnEdiPro.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+  <data name="btnChangEmp.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
-  <data name="btnEdiPro.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="btnChangEmp.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 7.8pt</value>
   </data>
-  <data name="btnEdiPro.Location" type="System.Drawing.Point, System.Drawing">
-    <value>147, 341</value>
+  <data name="btnChangEmp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>529, 289</value>
   </data>
-  <data name="btnEdiPro.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="btnChangEmp.Size" type="System.Drawing.Size, System.Drawing">
     <value>140, 50</value>
   </data>
-  <data name="btnEdiPro.TabIndex" type="System.Int32, mscorlib">
+  <data name="btnChangEmp.TabIndex" type="System.Int32, mscorlib">
     <value>71</value>
   </data>
-  <data name="btnEdiPro.Text" xml:space="preserve">
+  <data name="btnChangEmp.Text" xml:space="preserve">
     <value>Sửa Thông Tin</value>
   </data>
-  <data name="&gt;&gt;btnEdiPro.Name" xml:space="preserve">
-    <value>btnEdiPro</value>
+  <data name="&gt;&gt;btnChangEmp.Name" xml:space="preserve">
+    <value>btnChangEmp</value>
   </data>
-  <data name="&gt;&gt;btnEdiPro.Type" xml:space="preserve">
+  <data name="&gt;&gt;btnChangEmp.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;btnEdiPro.Parent" xml:space="preserve">
+  <data name="&gt;&gt;btnChangEmp.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;btnEdiPro.ZOrder" xml:space="preserve">
-    <value>12</value>
+  <data name="&gt;&gt;btnChangEmp.ZOrder" xml:space="preserve">
+    <value>13</value>
   </data>
-  <data name="btnAddPro.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+  <data name="btnAddEmp.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
-  <data name="btnAddPro.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="btnAddEmp.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 7.8pt</value>
   </data>
-  <data name="btnAddPro.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1, 341</value>
+  <data name="btnAddEmp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>383, 289</value>
   </data>
-  <data name="btnAddPro.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="btnAddEmp.Size" type="System.Drawing.Size, System.Drawing">
     <value>140, 50</value>
   </data>
-  <data name="btnAddPro.TabIndex" type="System.Int32, mscorlib">
+  <data name="btnAddEmp.TabIndex" type="System.Int32, mscorlib">
     <value>70</value>
   </data>
-  <data name="btnAddPro.Text" xml:space="preserve">
+  <data name="btnAddEmp.Text" xml:space="preserve">
     <value>Thêm Nhân Viên</value>
   </data>
-  <data name="&gt;&gt;btnAddPro.Name" xml:space="preserve">
-    <value>btnAddPro</value>
+  <data name="&gt;&gt;btnAddEmp.Name" xml:space="preserve">
+    <value>btnAddEmp</value>
   </data>
-  <data name="&gt;&gt;btnAddPro.Type" xml:space="preserve">
+  <data name="&gt;&gt;btnAddEmp.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;btnAddPro.Parent" xml:space="preserve">
+  <data name="&gt;&gt;btnAddEmp.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;btnAddPro.ZOrder" xml:space="preserve">
-    <value>13</value>
+  <data name="&gt;&gt;btnAddEmp.ZOrder" xml:space="preserve">
+    <value>14</value>
   </data>
   <data name="textBox1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 7.8pt</value>
@@ -285,8 +291,11 @@
   <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
     <value>177, 27</value>
   </data>
+  <data name="textBox1.MaxLength" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
   <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>290, 22</value>
+    <value>200, 22</value>
   </data>
   <data name="textBox1.TabIndex" type="System.Int32, mscorlib">
     <value>68</value>
@@ -301,7 +310,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>16</value>
   </data>
   <data name="lblQPU.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -334,7 +343,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lblQPU.ZOrder" xml:space="preserve">
-    <value>20</value>
+    <value>21</value>
   </data>
   <data name="lblJntDate.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -367,7 +376,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lblJntDate.ZOrder" xml:space="preserve">
-    <value>21</value>
+    <value>22</value>
   </data>
   <data name="lblEmpLName.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -400,7 +409,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lblEmpLName.ZOrder" xml:space="preserve">
-    <value>22</value>
+    <value>23</value>
   </data>
   <data name="lblProName.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -433,7 +442,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lblProName.ZOrder" xml:space="preserve">
-    <value>23</value>
+    <value>24</value>
   </data>
   <data name="lblProID.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -466,13 +475,58 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lblProID.ZOrder" xml:space="preserve">
-    <value>24</value>
+    <value>25</value>
   </data>
   <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
   <data name="menuStrip1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 7.8pt</value>
+  </data>
+  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="menuStrip1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 2, 0, 2</value>
+  </data>
+  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1008, 24</value>
+  </data>
+  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="menuStrip1.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="thaoTácToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 7.8pt</value>
+  </data>
+  <data name="thaoTácToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 20</value>
+  </data>
+  <data name="thaoTácToolStripMenuItem.Text" xml:space="preserve">
+    <value>Thao Tác</value>
+  </data>
+  <data name="tìmSảnPhẩmToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 7.8pt</value>
+  </data>
+  <data name="tìmSảnPhẩmToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>239, 22</value>
+  </data>
+  <data name="tìmSảnPhẩmToolStripMenuItem.Text" xml:space="preserve">
+    <value>Tìm Sản Phẩm</value>
   </data>
   <data name="theoMãToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 7.8pt</value>
@@ -510,15 +564,6 @@
   <data name="tùyChọnToolStripMenuItem.Text" xml:space="preserve">
     <value>Tùy Chọn</value>
   </data>
-  <data name="tìmSảnPhẩmToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Arial, 7.8pt</value>
-  </data>
-  <data name="tìmSảnPhẩmToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>239, 22</value>
-  </data>
-  <data name="tìmSảnPhẩmToolStripMenuItem.Text" xml:space="preserve">
-    <value>Tìm Sản Phẩm</value>
-  </data>
   <data name="xóaSảnPhẩmToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 7.8pt</value>
   </data>
@@ -555,42 +600,6 @@
   <data name="đóngChứcNăngNàyToolStripMenuItem.Text" xml:space="preserve">
     <value>Đóng Chức Năng Này</value>
   </data>
-  <data name="thaoTácToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Arial, 7.8pt</value>
-  </data>
-  <data name="thaoTácToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>81, 20</value>
-  </data>
-  <data name="thaoTácToolStripMenuItem.Text" xml:space="preserve">
-    <value>Thao Tác</value>
-  </data>
-  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="menuStrip1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>5, 2, 0, 2</value>
-  </data>
-  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1061, 24</value>
-  </data>
-  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
-    <value>58</value>
-  </data>
-  <data name="menuStrip1.Text" xml:space="preserve">
-    <value>menuStrip1</value>
-  </data>
-  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
-    <value>menuStrip1</value>
-  </data>
-  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
-    <value>25</value>
-  </data>
   <data name="checkBox1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -601,16 +610,16 @@
     <value>Arial, 8pt</value>
   </data>
   <data name="checkBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>349, 315</value>
+    <value>239, 319</value>
   </data>
   <data name="checkBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>116, 20</value>
+    <value>138, 20</value>
   </data>
   <data name="checkBox1.TabIndex" type="System.Int32, mscorlib">
     <value>82</value>
   </data>
   <data name="checkBox1.Text" xml:space="preserve">
-    <value>Đã nghỉ việc?</value>
+    <value>Ngưng Liên Lạc?</value>
   </data>
   <data name="&gt;&gt;checkBox1.Name" xml:space="preserve">
     <value>checkBox1</value>
@@ -630,8 +639,11 @@
   <data name="textBox2.Location" type="System.Drawing.Point, System.Drawing">
     <value>177, 55</value>
   </data>
+  <data name="textBox2.MaxLength" type="System.Int32, mscorlib">
+    <value>250</value>
+  </data>
   <data name="textBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>290, 22</value>
+    <value>200, 22</value>
   </data>
   <data name="textBox2.TabIndex" type="System.Int32, mscorlib">
     <value>83</value>
@@ -654,8 +666,11 @@
   <data name="textBox3.Location" type="System.Drawing.Point, System.Drawing">
     <value>176, 83</value>
   </data>
+  <data name="textBox3.MaxLength" type="System.Int32, mscorlib">
+    <value>250</value>
+  </data>
   <data name="textBox3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>291, 22</value>
+    <value>201, 22</value>
   </data>
   <data name="textBox3.TabIndex" type="System.Int32, mscorlib">
     <value>83</value>
@@ -685,7 +700,7 @@
     <value>177, 111</value>
   </data>
   <data name="dtpHiredTime.Size" type="System.Drawing.Size, System.Drawing">
-    <value>290, 24</value>
+    <value>200, 24</value>
   </data>
   <data name="dtpHiredTime.TabIndex" type="System.Int32, mscorlib">
     <value>84</value>
@@ -736,7 +751,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>19</value>
+    <value>20</value>
   </data>
   <data name="comboBox1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 7.8pt</value>
@@ -744,8 +759,11 @@
   <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
     <value>176, 171</value>
   </data>
+  <data name="comboBox1.MaxLength" type="System.Int32, mscorlib">
+    <value>500</value>
+  </data>
   <data name="comboBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>290, 24</value>
+    <value>201, 24</value>
   </data>
   <data name="comboBox1.TabIndex" type="System.Int32, mscorlib">
     <value>81</value>
@@ -768,8 +786,11 @@
   <data name="textBox4.Location" type="System.Drawing.Point, System.Drawing">
     <value>175, 231</value>
   </data>
+  <data name="textBox4.MaxLength" type="System.Int32, mscorlib">
+    <value>10000</value>
+  </data>
   <data name="textBox4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>290, 22</value>
+    <value>202, 22</value>
   </data>
   <data name="textBox4.TabIndex" type="System.Int32, mscorlib">
     <value>83</value>
@@ -820,7 +841,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
-    <value>18</value>
+    <value>19</value>
   </data>
   <data name="label3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -856,7 +877,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
-    <value>16</value>
+    <value>17</value>
   </data>
   <data name="textBox5.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 7.8pt</value>
@@ -864,8 +885,11 @@
   <data name="textBox5.Location" type="System.Drawing.Point, System.Drawing">
     <value>176, 259</value>
   </data>
+  <data name="textBox5.MaxLength" type="System.Int32, mscorlib">
+    <value>10000</value>
+  </data>
   <data name="textBox5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>290, 22</value>
+    <value>201, 22</value>
   </data>
   <data name="textBox5.TabIndex" type="System.Int32, mscorlib">
     <value>83</value>
@@ -916,7 +940,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>15</value>
   </data>
   <data name="textBox6.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 7.8pt</value>
@@ -924,8 +948,14 @@
   <data name="textBox6.Location" type="System.Drawing.Point, System.Drawing">
     <value>176, 287</value>
   </data>
+  <data name="textBox6.MaxLength" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="textBox6.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
   <data name="textBox6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>290, 22</value>
+    <value>201, 22</value>
   </data>
   <data name="textBox6.TabIndex" type="System.Int32, mscorlib">
     <value>83</value>
@@ -943,10 +973,10 @@
     <value>3</value>
   </data>
   <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>474, 28</value>
+    <value>383, 28</value>
   </data>
   <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>581, 363</value>
+    <value>613, 255</value>
   </data>
   <data name="panel1.TabIndex" type="System.Int32, mscorlib">
     <value>85</value>
@@ -997,7 +1027,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
-    <value>17</value>
+    <value>18</value>
   </data>
   <data name="comboBox2.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 7.8pt</value>
@@ -1005,8 +1035,11 @@
   <data name="comboBox2.Location" type="System.Drawing.Point, System.Drawing">
     <value>175, 201</value>
   </data>
+  <data name="comboBox2.MaxLength" type="System.Int32, mscorlib">
+    <value>500</value>
+  </data>
   <data name="comboBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>290, 24</value>
+    <value>202, 24</value>
   </data>
   <data name="comboBox2.TabIndex" type="System.Int32, mscorlib">
     <value>81</value>
@@ -1023,6 +1056,39 @@
   <data name="&gt;&gt;comboBox2.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
+  <data name="btnExptDT.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnExptDT.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 7.8pt</value>
+  </data>
+  <data name="btnExptDT.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnExptDT.Location" type="System.Drawing.Point, System.Drawing">
+    <value>675, 289</value>
+  </data>
+  <data name="btnExptDT.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 50</value>
+  </data>
+  <data name="btnExptDT.TabIndex" type="System.Int32, mscorlib">
+    <value>71</value>
+  </data>
+  <data name="btnExptDT.Text" xml:space="preserve">
+    <value>Xuất Dữ Liệu</value>
+  </data>
+  <data name="&gt;&gt;btnExptDT.Name" xml:space="preserve">
+    <value>btnExptDT</value>
+  </data>
+  <data name="&gt;&gt;btnExptDT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnExptDT.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnExptDT.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -1030,7 +1096,7 @@
     <value>4, 10</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1061, 399</value>
+    <value>1008, 351</value>
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 8px</value>

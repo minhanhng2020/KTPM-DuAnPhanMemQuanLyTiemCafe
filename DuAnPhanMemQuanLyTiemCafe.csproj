@@ -142,6 +142,9 @@
     <EmbeddedResource Include="fCategories.resx">
       <DependentUpon>fCategories.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="fCustomers.resx">
+      <DependentUpon>fCustomers.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="fEmployees.resx">
       <DependentUpon>fEmployees.cs</DependentUpon>
     </EmbeddedResource>
