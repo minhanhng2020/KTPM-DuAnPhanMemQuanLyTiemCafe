@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="CheckLoginBUS.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SupplierBUS.cs" />
     <Compile Include="UsersBUS.cs" />
   </ItemGroup>
   <ItemGroup>
