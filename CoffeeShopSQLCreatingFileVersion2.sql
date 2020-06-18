@@ -17,7 +17,8 @@ GO
 --======================================================
 INSERT INTO [dbo].[Users] ([UserName], [Password], [Type]) VALUES 
 	('admin', '123', 1),
-	('user1', '111', 2)
+	('bld', '101', 2),
+	('qtv', 'jqk', 3)
 GO
 
 --======================================================
@@ -56,46 +57,46 @@ ALTER TABLE Product ADD CONSTRAINT FK_PRODUCTCATEGORY_PRODUCT FOREIGN KEY (categ
 --======================================================
 
 INSERT INTO [dbo].[ProductCategory] ([name]) VALUES 
-	(N'Nước Ngọt'), --01
-	(N'Nước Khoáng Đóng Chai'), --02
-	(N'Nước Tinh Khiết'), --03
-	(N'Trà'), --04
-	(N'Trà Sữa'), --05
-	(N'Cà Phê'), --06
-	(N'Sinh Tố'), --07
-	(N'Sữa'), --08
-	(N'Kem'), --09
-	(N'Thức Ăn Vặt'), --10
-	(N'Bia'), --10
-	(N'Rượu') --11
+	(N'Nước Ngọt'), --[categoryId]: 01
+	(N'Nước Khoáng Đóng Chai'), --[categoryId]: 02
+	(N'Nước Tinh Khiết'), --[categoryId]: 03
+	(N'Trà'), --[categoryId]: 04
+	(N'Trà Sữa'), --[categoryId]: 05
+	(N'Cà Phê'), --[categoryId]: 06
+	(N'Sinh Tố'), --[categoryId]: 07
+	(N'Sữa'), --[categoryId]: 08
+	(N'Kem'), --[categoryId]: 09
+	(N'Thức Ăn Vặt'), --[categoryId]: 10
+	(N'Bia'), --[categoryId]: 11
+	(N'Rượu') --[categoryId]: 12
 GO
 
 --======================================================
 INSERT INTO [dbo].[Supplier] ([id], [name], [address]) VALUES 
-	('Vinacafe', N'Tổng Công Ty Cà Phê Việt Nam – Công Ty TNHH Một Thành Viên', N'211-213-213A Trần Huy Liệu, Phường 8, Quận Phú Nhuận, Thành Phố Hồ Chí Minh'),
-	('TrungNguyen', N'Tập Đoàn Trung Nguyên Legend', N'82-84 Bùi Thị Xuân, Phường Bến Thành, Quận 1, Thành Phố Hồ Chí Minh'),
-	('Redbull', N'Công ty TNHH Red Bull (Việt Nam)', N'Xa Lộ Hà Nội, Phường Bình Thắng, Thành phố Dĩ An, Tỉnh Bình Dương'),
-	('Pepsico', N'Suntory Pepsico', N'Lầu 5, Cao Ốc Sheraton, 88 Đồng Khởi, Quận 1, Thành Phố Hồ Chí Minh'),
-	('Heineken', N'Công ty TNHH Nhà Máy Bia HEINEKEN Việt Nam', N'Tầng 18 & 19, Tòa Nhà Vietcombank, Số 5 Công Trường Mê Linh, Phường Bến Nghé, Quận 1, Thành Phố Hồ Chí Minh'),
-	('Sapporo', N'Sapporo Vietnam', N'Tầng 17, Tòa nhà Green Power, 35 Tôn Đức Thắng, Quận 1, Thành Phố Hồ Chí Minh'),
 	('Cocacola', N'Cocacola Vietnam', N'485 Xa lộ Hà Nội, Phường Linh Trung, Quận Thủ Đức, Thành Phố Hồ Chí Minh'),
-	('Vinamilk', N'Công ty Cổ phần Sữa Việt Nam', N'Số 10, Đường Tân Trào, Phường Tân Phú, Quận 7, Thành Phố Hồ Chí Minh'),
-	('THMilk', N'Công ty Cổ phần Sữa TH', N'166 Nguyễn Thái Học, Phường Quang Trung, Thành Phố Vinh, Tỉnh Nghệ An'),
-	('Sabeco', N'Tổng công ty cổ phần Bia - Rượu - Nước giải khát Sài Gòn', N'187 Nguyễn Chí Thanh, Phường 12, Quận 5, Thành Phố Hồ Chí Minh'),
+	('Dalatmilk', N'Công Ty Cổ Phần Sữa Đà Lạt', N'Số 11A Đường Cô Giang, Phường 9, Thành phố Đà Lạt, Tỉnh Lâm Đồng'),
+	('Heineken', N'Công ty TNHH Nhà Máy Bia HEINEKEN Việt Nam', N'Tầng 18 & 19, Tòa Nhà Vietcombank, Số 5 Công Trường Mê Linh, Phường Bến Nghé, Quận 1, Thành Phố Hồ Chí Minh'),
 	('KemTrangTien', N'Công Ty Cổ Phần Kem Tràng Tiền', N'Số 35 Tràng Tiền, Hoàn Kiếm, Thủ Đô Hà Nội'),
+	('Kido', N'Công Ty Cổ Phần Thực Phẩm Đông Lạnh Kido', N'Lô A2 -7, Đường số N4, KCN Tây Bắc Củ Chi, Ấp Cây Sộp, Xã Tân An Hội, Huyện Củ Chi, Thành phố Hồ Chí Minh'),
 	('Lavifood', N'Công Ty Cổ Phần LAVIFOOD', N'261 Hoàng Văn Thụ, Phường 2, Quận Tân Bình, Thành Phố Hồ Chí Minh'),
+	('NamViet', N'Công ty TNHH Một Thành Viên Thực Phẩm và Nước Giải Khát Nam Việt ', N'994/1C Nguyễn Thị Minh Khai, Khu Phố Tân Thắng, Phường Tân Bình, Thị Xã Dĩ Tỉnh An, Tỉnh Bình Dương'),
 	('Nestle', N'Công Ty TNHH Nestlé Việt Nam', N'Lầu 5, Empress Tower, 138-142 Hai Bà Trưng, Phường Đa Kao, Quận 1, Thành Phố Hồ Chí Minh'),
 	('Nutifood', N'Công Ty Cổ Phần Thực Phẩm Dinh Dưỡng Nutifood', N'281-283 Hoàng Diệu, Phường 6, Quận 4, Thành Phố Hồ Chí Minh'),
-	('Kido', N'Công Ty Cổ Phần Thực Phẩm Đông Lạnh Kido', N'Lô A2 -7, Đường số N4, KCN Tây Bắc Củ Chi, Ấp Cây Sộp, Xã Tân An Hội, Huyện Củ Chi, Thành phố Hồ Chí Minh'),
-	('Dalatmilk', N'Công Ty Cổ Phần Sữa Đà Lạt', N'Số 11A Đường Cô Giang, Phường 9, Thành phố Đà Lạt, Tỉnh Lâm Đồng'),
-	('NamViet', N'Công ty TNHH Một Thành Viên Thực Phẩm và Nước Giải Khát Nam Việt ', N'994/1C Nguyễn Thị Minh Khai, Khu Phố Tân Thắng, Phường Tân Bình, Thị Xã Dĩ Tỉnh An, Tỉnh Bình Dương')
+	('Pepsico', N'Suntory Pepsico', N'Lầu 5, Cao Ốc Sheraton, 88 Đồng Khởi, Quận 1, Thành Phố Hồ Chí Minh'),
+	('Redbull', N'Công ty TNHH Red Bull (Việt Nam)', N'Xa Lộ Hà Nội, Phường Bình Thắng, Thành phố Dĩ An, Tỉnh Bình Dương'),
+	('Sabeco', N'Tổng công ty cổ phần Bia - Rượu - Nước giải khát Sài Gòn', N'187 Nguyễn Chí Thanh, Phường 12, Quận 5, Thành Phố Hồ Chí Minh'),
+	('Sapporo', N'Sapporo Vietnam', N'Tầng 17, Tòa nhà Green Power, 35 Tôn Đức Thắng, Quận 1, Thành Phố Hồ Chí Minh'),
+	('THMilk', N'Công ty Cổ phần Sữa TH', N'166 Nguyễn Thái Học, Phường Quang Trung, Thành Phố Vinh, Tỉnh Nghệ An'),
+	('TrungNguyen', N'Tập Đoàn Trung Nguyên Legend', N'82-84 Bùi Thị Xuân, Phường Bến Thành, Quận 1, Thành Phố Hồ Chí Minh'),
+	('Vinamilk', N'Công ty Cổ phần Sữa Việt Nam', N'Số 10, Đường Tân Trào, Phường Tân Phú, Quận 7, Thành Phố Hồ Chí Minh'),
+	('Vinacafe', N'Tổng Công Ty Cà Phê Việt Nam – Công Ty TNHH Một Thành Viên', N'211-213-213A Trần Huy Liệu, Phường 8, Quận Phú Nhuận, Thành Phố Hồ Chí Minh')
 GO
 
 INSERT INTO [dbo].[Product] ([id], [name], [sellingPrice], [purchasePrice], [categoryId], [supplierId]) VALUES 
 	('Pepsi', N'Pepsi', 10000, 20000, 1, 'Pepsico'), 
 	('Coke', N'Cocacola', 10000, 20000, 1, 'Cocacola'), 
 	('Lavie', N'Nước Khoáng La Vie', 3000, 6000, 3, 'Nestle'),
- 	('333', N'Bia 333', 9000, 18000, 9, 'Pepsico'),
+ 	('333', N'Bia 333', 9000, 18000, 9, 'Sabeco'),
 	('TrasuaTC', N'Trà sữa trân châu', 12000, 17000, 5, 'NamViet'),
 	('Sting', N'Nước tăng lực Sting', 8000, 15000, 1, 'Pepsico'),
 	('Sapporo', N'Bia Sapporo', 15000 , 30000, 9, 'Sapporo')
