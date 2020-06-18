@@ -69,6 +69,8 @@
             this.EditColumn = new System.Windows.Forms.DataGridViewButtonColumn();
             this.label5 = new System.Windows.Forms.Label();
             this.textBox6 = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.textBox7 = new System.Windows.Forms.TextBox();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvSupplier)).BeginInit();
             this.SuspendLayout();
@@ -200,9 +202,9 @@
             this.btnReturnHome.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.btnReturnHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnReturnHome.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnReturnHome.Location = new System.Drawing.Point(938, 289);
+            this.btnReturnHome.Location = new System.Drawing.Point(916, 290);
             this.btnReturnHome.Name = "btnReturnHome";
-            this.btnReturnHome.Size = new System.Drawing.Size(192, 50);
+            this.btnReturnHome.Size = new System.Drawing.Size(203, 50);
             this.btnReturnHome.TabIndex = 71;
             this.btnReturnHome.Text = "Trở Về Màn Hình Chính";
             this.btnReturnHome.UseVisualStyleBackColor = true;
@@ -212,10 +214,10 @@
             this.btnExit.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnExit.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnExit.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExit.Location = new System.Drawing.Point(1136, 289);
+            this.btnExit.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExit.Location = new System.Drawing.Point(1125, 290);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(192, 50);
+            this.btnExit.Size = new System.Drawing.Size(203, 50);
             this.btnExit.TabIndex = 72;
             this.btnExit.Text = "Thoát Khỏi Chương Trình";
             this.btnExit.UseVisualStyleBackColor = true;
@@ -227,9 +229,9 @@
             this.btnRemCat.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.btnRemCat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRemCat.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRemCat.Location = new System.Drawing.Point(752, 289);
+            this.btnRemCat.Location = new System.Drawing.Point(707, 290);
             this.btnRemCat.Name = "btnRemCat";
-            this.btnRemCat.Size = new System.Drawing.Size(180, 50);
+            this.btnRemCat.Size = new System.Drawing.Size(203, 50);
             this.btnRemCat.TabIndex = 73;
             this.btnRemCat.Text = "Xóa Loại Sản Phẩm";
             this.btnRemCat.UseVisualStyleBackColor = true;
@@ -240,9 +242,9 @@
             this.btnEdiCat.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.btnEdiCat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEdiCat.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEdiCat.Location = new System.Drawing.Point(566, 289);
+            this.btnEdiCat.Location = new System.Drawing.Point(498, 290);
             this.btnEdiCat.Name = "btnEdiCat";
-            this.btnEdiCat.Size = new System.Drawing.Size(180, 50);
+            this.btnEdiCat.Size = new System.Drawing.Size(203, 50);
             this.btnEdiCat.TabIndex = 70;
             this.btnEdiCat.Text = "Sửa Loại Sản Phẩm";
             this.btnEdiCat.UseVisualStyleBackColor = true;
@@ -253,9 +255,9 @@
             this.btnAddCat.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.btnAddCat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAddCat.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAddCat.Location = new System.Drawing.Point(194, 289);
+            this.btnAddCat.Location = new System.Drawing.Point(80, 289);
             this.btnAddCat.Name = "btnAddCat";
-            this.btnAddCat.Size = new System.Drawing.Size(180, 50);
+            this.btnAddCat.Size = new System.Drawing.Size(203, 50);
             this.btnAddCat.TabIndex = 69;
             this.btnAddCat.Text = "Thêm Loại Sản Phẩm";
             this.btnAddCat.UseVisualStyleBackColor = true;
@@ -266,9 +268,9 @@
             this.btnViewCat.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.btnViewCat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnViewCat.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnViewCat.Location = new System.Drawing.Point(380, 289);
+            this.btnViewCat.Location = new System.Drawing.Point(289, 289);
             this.btnViewCat.Name = "btnViewCat";
-            this.btnViewCat.Size = new System.Drawing.Size(180, 50);
+            this.btnViewCat.Size = new System.Drawing.Size(203, 50);
             this.btnViewCat.TabIndex = 68;
             this.btnViewCat.Text = "Tra Cứu Loại Sản Phẩm";
             this.btnViewCat.UseVisualStyleBackColor = true;
@@ -277,7 +279,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(18, 128);
+            this.label1.Location = new System.Drawing.Point(25, 80);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(142, 16);
             this.label1.TabIndex = 74;
@@ -287,7 +289,7 @@
             // 
             this.lblCateDes.AutoSize = true;
             this.lblCateDes.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCateDes.Location = new System.Drawing.Point(18, 157);
+            this.lblCateDes.Location = new System.Drawing.Point(25, 109);
             this.lblCateDes.Name = "lblCateDes";
             this.lblCateDes.Size = new System.Drawing.Size(54, 16);
             this.lblCateDes.TabIndex = 75;
@@ -297,7 +299,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(18, 186);
+            this.label2.Location = new System.Drawing.Point(25, 138);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(109, 16);
             this.label2.TabIndex = 74;
@@ -307,7 +309,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(18, 215);
+            this.label3.Location = new System.Drawing.Point(25, 167);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(78, 16);
             this.label3.TabIndex = 74;
@@ -317,7 +319,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(348, 211);
+            this.label4.Location = new System.Drawing.Point(355, 163);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(68, 16);
             this.label4.TabIndex = 74;
@@ -328,7 +330,7 @@
             this.checkBox1.AutoSize = true;
             this.checkBox1.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.checkBox1.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox1.Location = new System.Drawing.Point(369, 240);
+            this.checkBox1.Location = new System.Drawing.Point(364, 189);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(162, 20);
             this.checkBox1.TabIndex = 76;
@@ -338,7 +340,7 @@
             // textBox1
             // 
             this.textBox1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.textBox1.Location = new System.Drawing.Point(162, 121);
+            this.textBox1.Location = new System.Drawing.Point(169, 73);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(357, 23);
             this.textBox1.TabIndex = 77;
@@ -346,7 +348,7 @@
             // textBox2
             // 
             this.textBox2.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.textBox2.Location = new System.Drawing.Point(162, 150);
+            this.textBox2.Location = new System.Drawing.Point(169, 102);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(357, 23);
             this.textBox2.TabIndex = 77;
@@ -354,7 +356,7 @@
             // textBox3
             // 
             this.textBox3.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.textBox3.Location = new System.Drawing.Point(162, 179);
+            this.textBox3.Location = new System.Drawing.Point(169, 131);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(357, 23);
             this.textBox3.TabIndex = 77;
@@ -362,7 +364,7 @@
             // textBox4
             // 
             this.textBox4.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.textBox4.Location = new System.Drawing.Point(414, 208);
+            this.textBox4.Location = new System.Drawing.Point(421, 160);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(105, 23);
             this.textBox4.TabIndex = 77;
@@ -370,7 +372,7 @@
             // textBox5
             // 
             this.textBox5.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.textBox5.Location = new System.Drawing.Point(162, 208);
+            this.textBox5.Location = new System.Drawing.Point(169, 160);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(180, 23);
             this.textBox5.TabIndex = 77;
@@ -432,7 +434,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(18, 244);
+            this.label5.Location = new System.Drawing.Point(25, 196);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(133, 16);
             this.label5.TabIndex = 74;
@@ -441,10 +443,28 @@
             // textBox6
             // 
             this.textBox6.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.textBox6.Location = new System.Drawing.Point(162, 237);
+            this.textBox6.Location = new System.Drawing.Point(169, 189);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(180, 23);
             this.textBox6.TabIndex = 77;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(25, 225);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(126, 16);
+            this.label6.TabIndex = 74;
+            this.label6.Text = "Tổng Doanh Thu:";
+            // 
+            // textBox7
+            // 
+            this.textBox7.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.textBox7.Location = new System.Drawing.Point(169, 218);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(180, 23);
+            this.textBox7.TabIndex = 77;
             // 
             // fCategories
             // 
@@ -453,6 +473,7 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1328, 351);
             this.Controls.Add(this.dgvSupplier);
+            this.Controls.Add(this.textBox7);
             this.Controls.Add(this.textBox6);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.textBox4);
@@ -462,6 +483,7 @@
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.lblCateDes);
             this.Controls.Add(this.label4);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label2);
@@ -528,5 +550,7 @@
         private System.Windows.Forms.DataGridViewButtonColumn EditColumn;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox textBox7;
     }
 }
