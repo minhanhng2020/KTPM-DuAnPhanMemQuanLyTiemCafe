@@ -7,11 +7,11 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace DuAnPhanMemQuanLyTiemCafe
+namespace fReports
 {
-    public partial class fReports : Form
+    public partial class Form1 : Form
     {
-        public fReports()
+        public Form1()
         {
             InitializeComponent();
         }

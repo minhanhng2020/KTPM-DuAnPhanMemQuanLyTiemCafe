@@ -15,7 +15,7 @@ namespace DAO
         /*Đường dẫn đến Cơ Sở Dữ Liệu: Data Source=OULABW7T;Initial Catalog=CoffeeShop;Integrated Security=True*/
         public DataProvider()
         {
-            string cnStr = "Data Source=OULABW7T;Initial Catalog=CoffeeShop;Integrated Security=True";
+            string cnStr = "Data Source=.;Initial Catalog=CoffeeShop;Integrated Security=True";
             cn = new SqlConnection(cnStr);
         }
 

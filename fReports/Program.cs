@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
 
-namespace DuAnPhanMemQuanLyTiemCafe
+namespace fReports
 {
     static class Program
     {
@@ -15,7 +15,7 @@ namespace DuAnPhanMemQuanLyTiemCafe
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new fSuppliers());
+            Application.Run(new Form1());
         }
     }
 }

@@ -19,10 +19,10 @@ namespace DAO
             cmd.CommandText = sql;
             cmd.CommandType = CommandType.Text;
 
-            int sodong = (int)cmd.ExecuteScalar();
+            int rsl = (int)cmd.ExecuteScalar();
 
             Disconnect();
-            if (sodong > 0)
+            if (rsl > 0)
                 return true;
             else
                 return false;
