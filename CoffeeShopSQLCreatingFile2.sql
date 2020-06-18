@@ -56,34 +56,39 @@ ALTER TABLE Product ADD CONSTRAINT FK_PRODUCTCATEGORY_PRODUCT FOREIGN KEY (categ
 --======================================================
 
 INSERT INTO [dbo].[ProductCategory] ([name]) VALUES 
-	(N'Nước Ngọt'), --1
-	(N'Nước Khoáng Đóng Chai'), --2
-	(N'Nước Tinh Khiết'), --3
-	(N'Trà'), --4
-	(N'Trà Sữa'), --5
-	(N'Sinh Tố'), --6
-	(N'Kem'), --7
-	(N'Thức Ăn Vặt'), --8
-	(N'Bia'), --9
-	(N'Rượu') --10
+	(N'Nước Ngọt'), --01
+	(N'Nước Khoáng Đóng Chai'), --02
+	(N'Nước Tinh Khiết'), --03
+	(N'Trà'), --04
+	(N'Trà Sữa'), --05
+	(N'Cà Phê'), --06
+	(N'Sinh Tố'), --07
+	(N'Sữa'), --08
+	(N'Kem'), --09
+	(N'Thức Ăn Vặt'), --10
+	(N'Bia'), --10
+	(N'Rượu') --11
 GO
 
 --======================================================
 INSERT INTO [dbo].[Supplier] ([id], [name], [address]) VALUES 
-	('Pepsico', N'Suntory Pepsico', N'Lầu 5, Cao Ốc Sheraton, 88 Đồng Khởi, Q. 1, Tp. Hồ Chí Minh'),
-	('Heineken', N'Công ty TNHH Nhà Máy Bia HEINEKEN Việt Nam', N'Tầng 18 & 19, Tòa Nhà Vietcombank, Số 5 Công Trường Mê Linh, P. Bến Nghé, Quận 1, Tp. Hồ Chí Minh'),
-	('Sapporo', N'Sapporo Vietnam', N'Tầng 17, Tòa nhà Green Power, 35 Tôn Đức Thắng, Quận 1, Thành phố Hồ Chí Minh'),
-	('Cocacola', N'Cocacola Vietnam', N'485 Xa lộ Hà Nội, Phường Linh Trung, Quận Thủ Đức, Tp. Hồ Chí Minh'),
-	('Vinamilk', N'Công ty Cổ phần Sữa Việt Nam', N'Số 10, Đường Tân Trào, Phường Tân Phú, Quận 7, Tp. HCM'),
-	('THMilk', N'Công ty Cổ phần Sữa TH', N'166 Nguyễn Thái Học, P. Quang Trung, TP. Vinh, Tỉnh Nghệ An'),
-	('Sabeco', N'Tổng công ty cổ phần Bia - Rượu - Nước giải khát Sài Gòn', N'187 Nguyễn Chí Thanh, Phường 12, Quận 5, TP HCM'),
-	('KemTrangTien', N'Công Ty Cổ Phần Kem Tràng Tiền', N'Số 35 Tràng Tiền, Hoàn Kiếm, Hà Nội'),
-	('Lavifood', N'Công Ty Cổ Phần LAVIFOOD', N'261 Hoàng Văn Thụ, Phường 2, Quận Tân Bình, TP.HCM'),
-	('Nestle', N'Công Ty TNHH Nestlé Việt Nam', N'Lầu 5, Empress Tower, 138-142 Hai Bà Trưng, Phường Đa Kao, Quận 1, Tp.Hồ Chí Minh'),
-	('Nutifood', N'Công Ty Cổ Phần Thực Phẩm Dinh Dưỡng Nutifood', N'281-283 Hoàng Diệu, Phường 6, Quận 4, TP. Hồ Chí Minh'),
-	('Kido', N'Công Ty Cổ Phần Thực Phẩm Đông Lạnh Kido', N'Lô A2 -7, Đường số N4, KCN Tây Bắc Củ Chi, Ấp Cây Sộp, Xã Tân An Hội, Huyện Củ Chi, Thành phố Hồ Chí Minh Việt Nam'),
-	('Dalatmilk', N'Công Ty Cổ Phần Sữa Đà Lạt', N'Số 11A đường Cô Giang, Phường 9, Thành phố Đà Lạt, Lâm Đồng'),
-	('NamViet', N'Công ty TNHH Một Thành Viên Thực Phẩm và Nước Giải Khát Nam Việt ', N'994/1C Nguyễn Thị Minh Khai, Khu Phố Tân Thắng, Phường Tân Bình, Thị Xã Dĩ Tỉnh An, Bình Dương')
+	('Vinacafe', N'Tổng Công Ty Cà Phê Việt Nam – Công Ty TNHH Một Thành Viên', N'211-213-213A Trần Huy Liệu, Phường 8, Quận Phú Nhuận, Thành Phố Hồ Chí Minh'),
+	('TrungNguyen', N'Tập Đoàn Trung Nguyên Legend', N'82-84 Bùi Thị Xuân, Phường Bến Thành, Quận 1, Thành Phố Hồ Chí Minh'),
+	('Redbull', N'Công ty TNHH Red Bull (Việt Nam)', N'Xa Lộ Hà Nội, Phường Bình Thắng, Thành phố Dĩ An, Tỉnh Bình Dương'),
+	('Pepsico', N'Suntory Pepsico', N'Lầu 5, Cao Ốc Sheraton, 88 Đồng Khởi, Quận 1, Thành Phố Hồ Chí Minh'),
+	('Heineken', N'Công ty TNHH Nhà Máy Bia HEINEKEN Việt Nam', N'Tầng 18 & 19, Tòa Nhà Vietcombank, Số 5 Công Trường Mê Linh, Phường Bến Nghé, Quận 1, Thành Phố Hồ Chí Minh'),
+	('Sapporo', N'Sapporo Vietnam', N'Tầng 17, Tòa nhà Green Power, 35 Tôn Đức Thắng, Quận 1, Thành Phố Hồ Chí Minh'),
+	('Cocacola', N'Cocacola Vietnam', N'485 Xa lộ Hà Nội, Phường Linh Trung, Quận Thủ Đức, Thành Phố Hồ Chí Minh'),
+	('Vinamilk', N'Công ty Cổ phần Sữa Việt Nam', N'Số 10, Đường Tân Trào, Phường Tân Phú, Quận 7, Thành Phố Hồ Chí Minh'),
+	('THMilk', N'Công ty Cổ phần Sữa TH', N'166 Nguyễn Thái Học, Phường Quang Trung, Thành Phố Vinh, Tỉnh Nghệ An'),
+	('Sabeco', N'Tổng công ty cổ phần Bia - Rượu - Nước giải khát Sài Gòn', N'187 Nguyễn Chí Thanh, Phường 12, Quận 5, Thành Phố Hồ Chí Minh'),
+	('KemTrangTien', N'Công Ty Cổ Phần Kem Tràng Tiền', N'Số 35 Tràng Tiền, Hoàn Kiếm, Thủ Đô Hà Nội'),
+	('Lavifood', N'Công Ty Cổ Phần LAVIFOOD', N'261 Hoàng Văn Thụ, Phường 2, Quận Tân Bình, Thành Phố Hồ Chí Minh'),
+	('Nestle', N'Công Ty TNHH Nestlé Việt Nam', N'Lầu 5, Empress Tower, 138-142 Hai Bà Trưng, Phường Đa Kao, Quận 1, Thành Phố Hồ Chí Minh'),
+	('Nutifood', N'Công Ty Cổ Phần Thực Phẩm Dinh Dưỡng Nutifood', N'281-283 Hoàng Diệu, Phường 6, Quận 4, Thành Phố Hồ Chí Minh'),
+	('Kido', N'Công Ty Cổ Phần Thực Phẩm Đông Lạnh Kido', N'Lô A2 -7, Đường số N4, KCN Tây Bắc Củ Chi, Ấp Cây Sộp, Xã Tân An Hội, Huyện Củ Chi, Thành phố Hồ Chí Minh'),
+	('Dalatmilk', N'Công Ty Cổ Phần Sữa Đà Lạt', N'Số 11A Đường Cô Giang, Phường 9, Thành phố Đà Lạt, Tỉnh Lâm Đồng'),
+	('NamViet', N'Công ty TNHH Một Thành Viên Thực Phẩm và Nước Giải Khát Nam Việt ', N'994/1C Nguyễn Thị Minh Khai, Khu Phố Tân Thắng, Phường Tân Bình, Thị Xã Dĩ Tỉnh An, Tỉnh Bình Dương')
 GO
 
 INSERT INTO [dbo].[Product] ([id], [name], [sellingPrice], [purchasePrice], [categoryId], [supplierId]) VALUES 
