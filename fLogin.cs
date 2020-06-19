@@ -52,13 +52,23 @@ namespace DuAnPhanMemQuanLyTiemCafe
             CheckLoginBUS c = new CheckLoginBUS();
             if (username == null || username == "")
             {
-                MessageBox.Show("Đã Xảy Ra Lỗi. Vui Lòng Thử Lại...", "Đăng Nhập Hệ Thống", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
+                DialogResult rlt = MessageBox.Show("Đã Xảy Ra Lỗi. Vui Lòng Thử Lại...", "Đăng Nhập Hệ Thống", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
+                if (rlt==DialogResult.Cancel)
+                {
+                    MessageBox.Show("Tạm Biệt, Hẹn Gặp Lại.");
+                    this.Close();
+                }
             }
             else
             {
                 if (password == null || password == "")
                 {
-                    MessageBox.Show("Đã Xảy Ra Lỗi. Vui Lòng Thử Lại...", "Đăng Nhập Hệ Thống", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
+                    DialogResult rlt = MessageBox.Show("Đã Xảy Ra Lỗi. Vui Lòng Thử Lại...", "Đăng Nhập Hệ Thống", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
+                    if (rlt == DialogResult.Cancel)
+                    {
+                        MessageBox.Show("Tạm Biệt, Hẹn Gặp Lại.");
+                        this.Close();
+                    }
                 }
                 else
                 {
@@ -68,7 +78,14 @@ namespace DuAnPhanMemQuanLyTiemCafe
                         this.Close();
                     }
                     else
-                        MessageBox.Show("Đã Xảy Ra Lỗi. Vui Lòng Thử Lại...", "Đăng Nhập Hệ Thống", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
+                    {
+                        DialogResult rlt = MessageBox.Show("Đã Xảy Ra Lỗi. Vui Lòng Thử Lại...", "Đăng Nhập Hệ Thống", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
+                        if (rlt == DialogResult.Cancel)
+                        {
+                            MessageBox.Show("Tạm Biệt, Hẹn Gặp Lại.");
+                            this.Close();
+                        }
+                    }
                 }
             }   
         }
