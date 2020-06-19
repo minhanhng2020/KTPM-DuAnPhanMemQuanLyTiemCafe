@@ -7,7 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 //Chen them cac muc tu tao.
-using System.Data;
 using System.Data.SqlClient;
 using BUS;
 using DTO;

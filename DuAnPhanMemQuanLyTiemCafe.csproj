@@ -106,6 +106,12 @@
     <Compile Include="fLogin.Designer.cs">
       <DependentUpon>fLogin.cs</DependentUpon>
     </Compile>
+    <Compile Include="fRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fRegister.Designer.cs">
+      <DependentUpon>fRegister.cs</DependentUpon>
+    </Compile>
     <Compile Include="fReports.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -142,6 +148,12 @@
     <Compile Include="fSuppliers.Designer.cs">
       <DependentUpon>fSuppliers.cs</DependentUpon>
     </Compile>
+    <Compile Include="fUserAccounts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fUserAccounts.Designer.cs">
+      <DependentUpon>fUserAccounts.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="fCategories.resx">
@@ -173,6 +185,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="fLogin.resx">
       <DependentUpon>fLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fRegister.resx">
+      <DependentUpon>fRegister.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="fReports.resx">
       <DependentUpon>fReports.cs</DependentUpon>

@@ -46,20 +46,31 @@ namespace DuAnPhanMemQuanLyTiemCafe
         {
             string username = txtUsername.Text;
             string password = txtPassword.Text;
-
-            //UsersBUS u = new UsersBUS();
-            //if (u.Login(username, password))
-            //    MessageBox.Show("Đăng Nhập Thành Công.", "Đăng Nhập Hệ Thống", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            //else
-            //    MessageBox.Show("Đã Xảy Ra Lỗi. Vui Lòng Thử Lại...", "Đăng Nhập Hệ Thống", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
+            //Username: Tên tự đặt (tối đa 15 ký tự), không ký tự đặc biệt, trừ khi dùng email.
+            //- Password: Tối thiểu 8 ký tự, yêu cầu có ký tự hoa, ký tự thường, ký tự số, ký tự đặc biệt.
+            //- Bắt buộc có cả username và password.
             CheckLoginBUS c = new CheckLoginBUS();
-            if (c.ChckLgn(username, password))
-                MessageBox.Show("Đăng Nhập Thành Công.", "Đăng Nhập Hệ Thống", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            else
+            if (username == null || username == "")
             {
                 MessageBox.Show("Đã Xảy Ra Lỗi. Vui Lòng Thử Lại...", "Đăng Nhập Hệ Thống", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
-
             }
+            else
+            {
+                if (password == null || password == "")
+                {
+                    MessageBox.Show("Đã Xảy Ra Lỗi. Vui Lòng Thử Lại...", "Đăng Nhập Hệ Thống", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
+                }
+                else
+                {
+                    if (c.ChckLgn(username, password))
+                    {
+                        MessageBox.Show("Đăng Nhập Thành Công.", "Đăng Nhập Hệ Thống", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        this.Close();
+                    }
+                    else
+                        MessageBox.Show("Đã Xảy Ra Lỗi. Vui Lòng Thử Lại...", "Đăng Nhập Hệ Thống", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
+                }
+            }   
         }
     }
 }
