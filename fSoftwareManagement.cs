@@ -18,12 +18,28 @@ namespace DuAnPhanMemQuanLyTiemCafe
 
         private void thoátChươngTrìnhToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Application.Exit();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Application.Exit();
+        }
+
+        private void btnAccess_Click(object sender, EventArgs e)
+        {
+            fSuppliers s = new fSuppliers();
+            s.Show();
+            this.Hide();
+        }
+
+        private void fSoftwareManagement_Load(object sender, EventArgs e)
+        {
+            fLogin l = new fLogin();
+            this.Enabled = false;
+            //this.Hide();
+            l.Show();
+            //l.Focus();
         }
     }
 }

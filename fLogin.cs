@@ -50,7 +50,7 @@ namespace DuAnPhanMemQuanLyTiemCafe
             //- Password: Tối thiểu 8 ký tự, yêu cầu có ký tự hoa, ký tự thường, ký tự số, ký tự đặc biệt.
             //- Bắt buộc có cả username và password.
             CheckLoginBUS c = new CheckLoginBUS();
-            if (username == null || username == "")
+            if (username == null || username == "" || username.Length > 15 || username.Length <= 3)
             {
                 DialogResult rlt = MessageBox.Show("Đã Xảy Ra Lỗi. Vui Lòng Thử Lại...", "Đăng Nhập Hệ Thống", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
                 if (rlt==DialogResult.Cancel)
@@ -61,7 +61,7 @@ namespace DuAnPhanMemQuanLyTiemCafe
             }
             else
             {
-                if (password == null || password == "")
+                if (password == null || password == "" || password.Length > 50)
                 {
                     DialogResult rlt = MessageBox.Show("Đã Xảy Ra Lỗi. Vui Lòng Thử Lại...", "Đăng Nhập Hệ Thống", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
                     if (rlt == DialogResult.Cancel)
@@ -75,7 +75,12 @@ namespace DuAnPhanMemQuanLyTiemCafe
                     if (c.ChckLgn(username, password))
                     {
                         MessageBox.Show("Đăng Nhập Thành Công.", "Đăng Nhập Hệ Thống", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        this.Close();
+
+                        fSoftwareManagement s = new fSoftwareManagement();
+                        //this.Enabled = false;
+                        this.Hide();
+                        s.Show();
+                        //this.Close();
                     }
                     else
                     {

@@ -22,10 +22,10 @@ namespace DuAnPhanMemQuanLyTiemCafe
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
+        //private void button1_Click(object sender, EventArgs e)
+        //{
+        //    Application.Exit();
+        //}
 
         private void fSuppliers_Load(object sender, EventArgs e)
         {
@@ -49,7 +49,19 @@ namespace DuAnPhanMemQuanLyTiemCafe
                 MessageBox.Show("Thêm nhà cung cấp mới thành công!");
             }
             else
-                MessageBox.Show("Đã xảy ra lỗi, vui lòng thử lại..");
+                MessageBox.Show("Đã xảy ra lỗi, vui lòng thử lại...");
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void btnReturnHome_Click(object sender, EventArgs e)
+        {
+            fSoftwareManagement sm = new fSoftwareManagement();
+            sm.Show();
+            this.Hide();
         }
     }
 }
