@@ -148,6 +148,12 @@
     <Compile Include="fSuppliers.Designer.cs">
       <DependentUpon>fSuppliers.cs</DependentUpon>
     </Compile>
+    <Compile Include="fTableServices.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fTableServices.Designer.cs">
+      <DependentUpon>fTableServices.cs</DependentUpon>
+    </Compile>
     <Compile Include="fUserAccounts.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -204,6 +210,9 @@
     <EmbeddedResource Include="fSuppliers.resx">
       <DependentUpon>fSuppliers.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="fTableServices.resx">
+      <DependentUpon>fTableServices.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -212,6 +221,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -236,6 +246,12 @@
       <Project>{B738A031-38CC-47C8-9C2B-7BAFC0F7B366}</Project>
       <Name>DTO</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coffeeBlack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coffeeColor.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
