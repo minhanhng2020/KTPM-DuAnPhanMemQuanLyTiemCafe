@@ -40,7 +40,24 @@
             this.tclSignIn = new System.Windows.Forms.TabControl();
             this.tpgSignIn = new System.Windows.Forms.TabPage();
             this.tpgSignUp = new System.Windows.Forms.TabPage();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.txtSUPhone = new System.Windows.Forms.TextBox();
+            this.txtSUCfmPassword = new System.Windows.Forms.TextBox();
+            this.txtSUPassword = new System.Windows.Forms.TextBox();
+            this.btnSUSignIn = new System.Windows.Forms.Button();
+            this.btnSUClear = new System.Windows.Forms.Button();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.btnSUExit = new System.Windows.Forms.Button();
+            this.txtSUCfmUsername = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txtSUUsername = new System.Windows.Forms.TextBox();
+            this.btnSURegister = new System.Windows.Forms.Button();
+            this.txtSUEmail = new System.Windows.Forms.TextBox();
             this.tpgRecovery = new System.Windows.Forms.TabPage();
+            this.label9 = new System.Windows.Forms.Label();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.thaoTácToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.thêmNhàCungCấpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -52,23 +69,6 @@
             this.trợGiúpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.giớiThiệuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.báoCáoLỗiChứcNăngToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.btnSUSignIn = new System.Windows.Forms.Button();
-            this.btnSUClear = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
-            this.btnSUExit = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
-            this.txtSUUsername = new System.Windows.Forms.TextBox();
-            this.btnSURegister = new System.Windows.Forms.Button();
-            this.txtSUEmail = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.txtSUPhone = new System.Windows.Forms.TextBox();
-            this.txtSUPassword = new System.Windows.Forms.TextBox();
-            this.txtSUCfmUsername = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.txtSUCfmPassword = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
             this.tclSignIn.SuspendLayout();
             this.tpgSignIn.SuspendLayout();
             this.tpgSignUp.SuspendLayout();
@@ -87,7 +87,7 @@
             this.btnLogin.Location = new System.Drawing.Point(181, 152);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(110, 50);
-            this.btnLogin.TabIndex = 0;
+            this.btnLogin.TabIndex = 3;
             this.btnLogin.Text = "Đăng Nhập";
             this.btnLogin.UseVisualStyleBackColor = false;
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
@@ -114,23 +114,21 @@
             // 
             // txtUsername
             // 
-            this.txtUsername.Font = new System.Drawing.Font("Arial", 8F);
-            this.txtUsername.Location = new System.Drawing.Point(233, 38);
+            this.txtUsername.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUsername.Location = new System.Drawing.Point(236, 39);
             this.txtUsername.MaxLength = 15;
-            this.txtUsername.Multiline = true;
             this.txtUsername.Name = "txtUsername";
-            this.txtUsername.Size = new System.Drawing.Size(200, 28);
-            this.txtUsername.TabIndex = 3;
+            this.txtUsername.Size = new System.Drawing.Size(200, 27);
+            this.txtUsername.TabIndex = 1;
             // 
             // txtPassword
             // 
-            this.txtPassword.Font = new System.Drawing.Font("Arial", 8.25F);
-            this.txtPassword.Location = new System.Drawing.Point(233, 90);
-            this.txtPassword.Multiline = true;
+            this.txtPassword.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPassword.Location = new System.Drawing.Point(233, 91);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '*';
-            this.txtPassword.Size = new System.Drawing.Size(200, 28);
-            this.txtPassword.TabIndex = 4;
+            this.txtPassword.Size = new System.Drawing.Size(200, 27);
+            this.txtPassword.TabIndex = 2;
             // 
             // btnSignup
             // 
@@ -143,7 +141,7 @@
             this.btnSignup.Location = new System.Drawing.Point(65, 152);
             this.btnSignup.Name = "btnSignup";
             this.btnSignup.Size = new System.Drawing.Size(110, 50);
-            this.btnSignup.TabIndex = 5;
+            this.btnSignup.TabIndex = 4;
             this.btnSignup.Text = "Đăng Ký";
             this.btnSignup.UseVisualStyleBackColor = false;
             // 
@@ -175,7 +173,7 @@
             this.btnExit.Location = new System.Drawing.Point(9, 152);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(50, 50);
-            this.btnExit.TabIndex = 7;
+            this.btnExit.TabIndex = 8;
             this.btnExit.Text = "X";
             this.btnExit.UseVisualStyleBackColor = false;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
@@ -192,7 +190,7 @@
             this.btnRstTxtboxData.Location = new System.Drawing.Point(299, 152);
             this.btnRstTxtboxData.Name = "btnRstTxtboxData";
             this.btnRstTxtboxData.Size = new System.Drawing.Size(140, 29);
-            this.btnRstTxtboxData.TabIndex = 8;
+            this.btnRstTxtboxData.TabIndex = 7;
             this.btnRstTxtboxData.Text = "Xóa Thông Tin Đăng Nhập";
             this.btnRstTxtboxData.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnRstTxtboxData.UseVisualStyleBackColor = false;
@@ -204,7 +202,7 @@
             this.tclSignIn.Controls.Add(this.tpgSignUp);
             this.tclSignIn.Controls.Add(this.tpgRecovery);
             this.tclSignIn.Font = new System.Drawing.Font("Arial", 10F);
-            this.tclSignIn.Location = new System.Drawing.Point(12, 29);
+            this.tclSignIn.Location = new System.Drawing.Point(12, 34);
             this.tclSignIn.Name = "tclSignIn";
             this.tclSignIn.SelectedIndex = 0;
             this.tclSignIn.Size = new System.Drawing.Size(447, 287);
@@ -256,97 +254,62 @@
             this.tpgSignUp.TabIndex = 1;
             this.tpgSignUp.Text = "Đăng Ký";
             // 
-            // tpgRecovery
+            // label8
             // 
-            this.tpgRecovery.BackColor = System.Drawing.Color.White;
-            this.tpgRecovery.Controls.Add(this.label9);
-            this.tpgRecovery.Location = new System.Drawing.Point(4, 28);
-            this.tpgRecovery.Name = "tpgRecovery";
-            this.tpgRecovery.Size = new System.Drawing.Size(439, 255);
-            this.tpgRecovery.TabIndex = 2;
-            this.tpgRecovery.Text = "Khôi Phục Tài Khoản";
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold);
+            this.label8.Location = new System.Drawing.Point(9, 100);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(108, 16);
+            this.label8.TabIndex = 18;
+            this.label8.Text = "Số Điện Thoại:";
             // 
-            // menuStrip1
+            // label5
             // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.thaoTácToolStripMenuItem,
-            this.trợGiúpToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(472, 26);
-            this.menuStrip1.TabIndex = 10;
-            this.menuStrip1.Text = "menuStrip1";
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold);
+            this.label5.Location = new System.Drawing.Point(9, 129);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(78, 16);
+            this.label5.TabIndex = 18;
+            this.label5.Text = "Mật Khẩu:";
             // 
-            // thaoTácToolStripMenuItem
+            // label6
             // 
-            this.thaoTácToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.thêmNhàCungCấpToolStripMenuItem,
-            this.chỉnhSửaThôngTinToolStripMenuItem,
-            this.xóaNhàCungCấpToolStripMenuItem,
-            this.đóngCửaSổĐangMởToolStripMenuItem,
-            this.khôiPhụcLạiTrạngTháiBanĐầuToolStripMenuItem,
-            this.thoátChươngTrìnhToolStripMenuItem});
-            this.thaoTácToolStripMenuItem.Name = "thaoTácToolStripMenuItem";
-            this.thaoTácToolStripMenuItem.Size = new System.Drawing.Size(84, 22);
-            this.thaoTácToolStripMenuItem.Text = "Thao Tác";
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold);
+            this.label6.Location = new System.Drawing.Point(9, 158);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(147, 16);
+            this.label6.TabIndex = 19;
+            this.label6.Text = "Xác Nhận Mật Khẩu:";
             // 
-            // thêmNhàCungCấpToolStripMenuItem
+            // txtSUPhone
             // 
-            this.thêmNhàCungCấpToolStripMenuItem.Name = "thêmNhàCungCấpToolStripMenuItem";
-            this.thêmNhàCungCấpToolStripMenuItem.Size = new System.Drawing.Size(299, 22);
-            this.thêmNhàCungCấpToolStripMenuItem.Text = "Thêm Nhà Cung Cấp";
+            this.txtSUPhone.Font = new System.Drawing.Font("Arial", 8F);
+            this.txtSUPhone.Location = new System.Drawing.Point(201, 93);
+            this.txtSUPhone.MaxLength = 100;
+            this.txtSUPhone.Name = "txtSUPhone";
+            this.txtSUPhone.Size = new System.Drawing.Size(215, 23);
+            this.txtSUPhone.TabIndex = 20;
             // 
-            // chỉnhSửaThôngTinToolStripMenuItem
+            // txtSUCfmPassword
             // 
-            this.chỉnhSửaThôngTinToolStripMenuItem.Name = "chỉnhSửaThôngTinToolStripMenuItem";
-            this.chỉnhSửaThôngTinToolStripMenuItem.Size = new System.Drawing.Size(299, 22);
-            this.chỉnhSửaThôngTinToolStripMenuItem.Text = "Chỉnh Sửa Thông Tin";
+            this.txtSUCfmPassword.Font = new System.Drawing.Font("Arial", 8.25F);
+            this.txtSUCfmPassword.Location = new System.Drawing.Point(201, 151);
+            this.txtSUCfmPassword.Name = "txtSUCfmPassword";
+            this.txtSUCfmPassword.PasswordChar = '*';
+            this.txtSUCfmPassword.Size = new System.Drawing.Size(215, 23);
+            this.txtSUCfmPassword.TabIndex = 21;
             // 
-            // xóaNhàCungCấpToolStripMenuItem
+            // txtSUPassword
             // 
-            this.xóaNhàCungCấpToolStripMenuItem.Name = "xóaNhàCungCấpToolStripMenuItem";
-            this.xóaNhàCungCấpToolStripMenuItem.Size = new System.Drawing.Size(299, 22);
-            this.xóaNhàCungCấpToolStripMenuItem.Text = "Xóa Nhà Cung Cấp";
-            // 
-            // đóngCửaSổĐangMởToolStripMenuItem
-            // 
-            this.đóngCửaSổĐangMởToolStripMenuItem.Name = "đóngCửaSổĐangMởToolStripMenuItem";
-            this.đóngCửaSổĐangMởToolStripMenuItem.Size = new System.Drawing.Size(299, 22);
-            this.đóngCửaSổĐangMởToolStripMenuItem.Text = "Đóng Cửa Sổ Đang Chạy";
-            // 
-            // khôiPhụcLạiTrạngTháiBanĐầuToolStripMenuItem
-            // 
-            this.khôiPhụcLạiTrạngTháiBanĐầuToolStripMenuItem.Name = "khôiPhụcLạiTrạngTháiBanĐầuToolStripMenuItem";
-            this.khôiPhụcLạiTrạngTháiBanĐầuToolStripMenuItem.Size = new System.Drawing.Size(299, 22);
-            this.khôiPhụcLạiTrạngTháiBanĐầuToolStripMenuItem.Text = "Khôi Phục Lại Trạng Thái Ban Đầu";
-            // 
-            // thoátChươngTrìnhToolStripMenuItem
-            // 
-            this.thoátChươngTrìnhToolStripMenuItem.Name = "thoátChươngTrìnhToolStripMenuItem";
-            this.thoátChươngTrìnhToolStripMenuItem.Size = new System.Drawing.Size(299, 22);
-            this.thoátChươngTrìnhToolStripMenuItem.Text = "Thoát Chương Trình";
-            // 
-            // trợGiúpToolStripMenuItem
-            // 
-            this.trợGiúpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.giớiThiệuToolStripMenuItem,
-            this.báoCáoLỗiChứcNăngToolStripMenuItem});
-            this.trợGiúpToolStripMenuItem.Name = "trợGiúpToolStripMenuItem";
-            this.trợGiúpToolStripMenuItem.Size = new System.Drawing.Size(76, 22);
-            this.trợGiúpToolStripMenuItem.Text = "Trợ Giúp";
-            // 
-            // giớiThiệuToolStripMenuItem
-            // 
-            this.giớiThiệuToolStripMenuItem.Name = "giớiThiệuToolStripMenuItem";
-            this.giớiThiệuToolStripMenuItem.Size = new System.Drawing.Size(230, 22);
-            this.giớiThiệuToolStripMenuItem.Text = "Giới Thiệu Chức Năng";
-            // 
-            // báoCáoLỗiChứcNăngToolStripMenuItem
-            // 
-            this.báoCáoLỗiChứcNăngToolStripMenuItem.Name = "báoCáoLỗiChứcNăngToolStripMenuItem";
-            this.báoCáoLỗiChứcNăngToolStripMenuItem.Size = new System.Drawing.Size(230, 22);
-            this.báoCáoLỗiChứcNăngToolStripMenuItem.Text = "Báo Cáo Lỗi Chức Năng";
+            this.txtSUPassword.Font = new System.Drawing.Font("Arial", 8.25F);
+            this.txtSUPassword.Location = new System.Drawing.Point(201, 122);
+            this.txtSUPassword.Name = "txtSUPassword";
+            this.txtSUPassword.PasswordChar = '*';
+            this.txtSUPassword.Size = new System.Drawing.Size(215, 23);
+            this.txtSUPassword.TabIndex = 21;
             // 
             // btnSUSignIn
             // 
@@ -380,6 +343,16 @@
             this.btnSUClear.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSUClear.UseVisualStyleBackColor = false;
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold);
+            this.label7.Location = new System.Drawing.Point(9, 42);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(186, 16);
+            this.label7.TabIndex = 10;
+            this.label7.Text = "Xác Nhận Tên Đăng Nhập:";
+            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -404,6 +377,15 @@
             this.btnSUExit.TabIndex = 16;
             this.btnSUExit.Text = "X";
             this.btnSUExit.UseVisualStyleBackColor = false;
+            // 
+            // txtSUCfmUsername
+            // 
+            this.txtSUCfmUsername.Font = new System.Drawing.Font("Arial", 8F);
+            this.txtSUCfmUsername.Location = new System.Drawing.Point(201, 35);
+            this.txtSUCfmUsername.MaxLength = 100;
+            this.txtSUCfmUsername.Name = "txtSUCfmUsername";
+            this.txtSUCfmUsername.Size = new System.Drawing.Size(215, 23);
+            this.txtSUCfmUsername.TabIndex = 12;
             // 
             // label4
             // 
@@ -448,81 +430,15 @@
             this.txtSUEmail.Size = new System.Drawing.Size(215, 23);
             this.txtSUEmail.TabIndex = 13;
             // 
-            // label5
+            // tpgRecovery
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold);
-            this.label5.Location = new System.Drawing.Point(9, 129);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(78, 16);
-            this.label5.TabIndex = 18;
-            this.label5.Text = "Mật Khẩu:";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold);
-            this.label6.Location = new System.Drawing.Point(9, 158);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(147, 16);
-            this.label6.TabIndex = 19;
-            this.label6.Text = "Xác Nhận Mật Khẩu:";
-            // 
-            // txtSUPhone
-            // 
-            this.txtSUPhone.Font = new System.Drawing.Font("Arial", 8F);
-            this.txtSUPhone.Location = new System.Drawing.Point(201, 93);
-            this.txtSUPhone.MaxLength = 100;
-            this.txtSUPhone.Name = "txtSUPhone";
-            this.txtSUPhone.Size = new System.Drawing.Size(215, 23);
-            this.txtSUPhone.TabIndex = 20;
-            // 
-            // txtSUPassword
-            // 
-            this.txtSUPassword.Font = new System.Drawing.Font("Arial", 8.25F);
-            this.txtSUPassword.Location = new System.Drawing.Point(201, 122);
-            this.txtSUPassword.Name = "txtSUPassword";
-            this.txtSUPassword.PasswordChar = '*';
-            this.txtSUPassword.Size = new System.Drawing.Size(215, 23);
-            this.txtSUPassword.TabIndex = 21;
-            // 
-            // txtSUCfmUsername
-            // 
-            this.txtSUCfmUsername.Font = new System.Drawing.Font("Arial", 8F);
-            this.txtSUCfmUsername.Location = new System.Drawing.Point(201, 35);
-            this.txtSUCfmUsername.MaxLength = 100;
-            this.txtSUCfmUsername.Name = "txtSUCfmUsername";
-            this.txtSUCfmUsername.Size = new System.Drawing.Size(215, 23);
-            this.txtSUCfmUsername.TabIndex = 12;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold);
-            this.label7.Location = new System.Drawing.Point(9, 42);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(186, 16);
-            this.label7.TabIndex = 10;
-            this.label7.Text = "Xác Nhận Tên Đăng Nhập:";
-            // 
-            // txtSUCfmPassword
-            // 
-            this.txtSUCfmPassword.Font = new System.Drawing.Font("Arial", 8.25F);
-            this.txtSUCfmPassword.Location = new System.Drawing.Point(201, 151);
-            this.txtSUCfmPassword.Name = "txtSUCfmPassword";
-            this.txtSUCfmPassword.PasswordChar = '*';
-            this.txtSUCfmPassword.Size = new System.Drawing.Size(215, 23);
-            this.txtSUCfmPassword.TabIndex = 21;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold);
-            this.label8.Location = new System.Drawing.Point(9, 100);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(108, 16);
-            this.label8.TabIndex = 18;
-            this.label8.Text = "Số Điện Thoại:";
+            this.tpgRecovery.BackColor = System.Drawing.Color.White;
+            this.tpgRecovery.Controls.Add(this.label9);
+            this.tpgRecovery.Location = new System.Drawing.Point(4, 28);
+            this.tpgRecovery.Name = "tpgRecovery";
+            this.tpgRecovery.Size = new System.Drawing.Size(439, 255);
+            this.tpgRecovery.TabIndex = 2;
+            this.tpgRecovery.Text = "Khôi Phục Tài Khoản";
             // 
             // label9
             // 
@@ -535,6 +451,88 @@
             this.label9.Size = new System.Drawing.Size(345, 38);
             this.label9.TabIndex = 0;
             this.label9.Text = "Chức Năng Đang Trong Giai Đoạn Bảo Trì, Vui Lòng Quay Lại Sau (0x15).";
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.thaoTácToolStripMenuItem,
+            this.trợGiúpToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(472, 31);
+            this.menuStrip1.TabIndex = 10;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // thaoTácToolStripMenuItem
+            // 
+            this.thaoTácToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.thêmNhàCungCấpToolStripMenuItem,
+            this.chỉnhSửaThôngTinToolStripMenuItem,
+            this.xóaNhàCungCấpToolStripMenuItem,
+            this.đóngCửaSổĐangMởToolStripMenuItem,
+            this.khôiPhụcLạiTrạngTháiBanĐầuToolStripMenuItem,
+            this.thoátChươngTrìnhToolStripMenuItem});
+            this.thaoTácToolStripMenuItem.Name = "thaoTácToolStripMenuItem";
+            this.thaoTácToolStripMenuItem.Size = new System.Drawing.Size(91, 27);
+            this.thaoTácToolStripMenuItem.Text = "Thao Tác";
+            // 
+            // thêmNhàCungCấpToolStripMenuItem
+            // 
+            this.thêmNhàCungCấpToolStripMenuItem.Name = "thêmNhàCungCấpToolStripMenuItem";
+            this.thêmNhàCungCấpToolStripMenuItem.Size = new System.Drawing.Size(339, 28);
+            this.thêmNhàCungCấpToolStripMenuItem.Text = "Thêm Nhà Cung Cấp";
+            // 
+            // chỉnhSửaThôngTinToolStripMenuItem
+            // 
+            this.chỉnhSửaThôngTinToolStripMenuItem.Name = "chỉnhSửaThôngTinToolStripMenuItem";
+            this.chỉnhSửaThôngTinToolStripMenuItem.Size = new System.Drawing.Size(339, 28);
+            this.chỉnhSửaThôngTinToolStripMenuItem.Text = "Chỉnh Sửa Thông Tin";
+            // 
+            // xóaNhàCungCấpToolStripMenuItem
+            // 
+            this.xóaNhàCungCấpToolStripMenuItem.Name = "xóaNhàCungCấpToolStripMenuItem";
+            this.xóaNhàCungCấpToolStripMenuItem.Size = new System.Drawing.Size(339, 28);
+            this.xóaNhàCungCấpToolStripMenuItem.Text = "Xóa Nhà Cung Cấp";
+            // 
+            // đóngCửaSổĐangMởToolStripMenuItem
+            // 
+            this.đóngCửaSổĐangMởToolStripMenuItem.Name = "đóngCửaSổĐangMởToolStripMenuItem";
+            this.đóngCửaSổĐangMởToolStripMenuItem.Size = new System.Drawing.Size(339, 28);
+            this.đóngCửaSổĐangMởToolStripMenuItem.Text = "Đóng Cửa Sổ Đang Chạy";
+            // 
+            // khôiPhụcLạiTrạngTháiBanĐầuToolStripMenuItem
+            // 
+            this.khôiPhụcLạiTrạngTháiBanĐầuToolStripMenuItem.Name = "khôiPhụcLạiTrạngTháiBanĐầuToolStripMenuItem";
+            this.khôiPhụcLạiTrạngTháiBanĐầuToolStripMenuItem.Size = new System.Drawing.Size(339, 28);
+            this.khôiPhụcLạiTrạngTháiBanĐầuToolStripMenuItem.Text = "Khôi Phục Lại Trạng Thái Ban Đầu";
+            // 
+            // thoátChươngTrìnhToolStripMenuItem
+            // 
+            this.thoátChươngTrìnhToolStripMenuItem.Name = "thoátChươngTrìnhToolStripMenuItem";
+            this.thoátChươngTrìnhToolStripMenuItem.Size = new System.Drawing.Size(339, 28);
+            this.thoátChươngTrìnhToolStripMenuItem.Text = "Thoát Chương Trình";
+            // 
+            // trợGiúpToolStripMenuItem
+            // 
+            this.trợGiúpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.giớiThiệuToolStripMenuItem,
+            this.báoCáoLỗiChứcNăngToolStripMenuItem});
+            this.trợGiúpToolStripMenuItem.Name = "trợGiúpToolStripMenuItem";
+            this.trợGiúpToolStripMenuItem.Size = new System.Drawing.Size(88, 27);
+            this.trợGiúpToolStripMenuItem.Text = "Trợ Giúp";
+            // 
+            // giớiThiệuToolStripMenuItem
+            // 
+            this.giớiThiệuToolStripMenuItem.Name = "giớiThiệuToolStripMenuItem";
+            this.giớiThiệuToolStripMenuItem.Size = new System.Drawing.Size(262, 28);
+            this.giớiThiệuToolStripMenuItem.Text = "Giới Thiệu Chức Năng";
+            // 
+            // báoCáoLỗiChứcNăngToolStripMenuItem
+            // 
+            this.báoCáoLỗiChứcNăngToolStripMenuItem.Name = "báoCáoLỗiChứcNăngToolStripMenuItem";
+            this.báoCáoLỗiChứcNăngToolStripMenuItem.Size = new System.Drawing.Size(262, 28);
+            this.báoCáoLỗiChứcNăngToolStripMenuItem.Text = "Báo Cáo Lỗi Chức Năng";
             // 
             // fLogin
             // 
