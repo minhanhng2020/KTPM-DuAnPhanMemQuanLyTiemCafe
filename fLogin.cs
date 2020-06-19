@@ -67,7 +67,7 @@ namespace DuAnPhanMemQuanLyTiemCafe
                     if (rlt == DialogResult.Cancel)
                     {
                         MessageBox.Show("Tạm Biệt, Hẹn Gặp Lại.");
-                        this.Close();
+                        Application.Exit();
                     }
                 }
                 else
@@ -76,10 +76,10 @@ namespace DuAnPhanMemQuanLyTiemCafe
                     {
                         MessageBox.Show("Đăng Nhập Thành Công.", "Đăng Nhập Hệ Thống", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-                        fSoftwareManagement s = new fSoftwareManagement();
+                        //fSoftwareManagement s = new fSoftwareManagement();
                         //this.Enabled = false;
-                        this.Hide();
-                        s.Show();
+                        //this.Hide();
+                        //s.Show();
                         //this.Close();
                     }
                     else

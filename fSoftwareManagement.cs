@@ -35,11 +35,11 @@ namespace DuAnPhanMemQuanLyTiemCafe
 
         private void fSoftwareManagement_Load(object sender, EventArgs e)
         {
-            fLogin l = new fLogin();
-            this.Enabled = false;
-            //this.Hide();
-            l.Show();
-            //l.Focus();
+            //fLogin l = new fLogin();
+            //this.Enabled = false;
+            ////this.Hide();
+            //l.Show();
+            ////l.Focus();
         }
     }
 }
