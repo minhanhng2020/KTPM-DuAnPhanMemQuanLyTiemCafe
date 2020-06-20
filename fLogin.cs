@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 using BUS;
 //using DAO;
 
@@ -13,14 +14,17 @@ namespace DuAnPhanMemQuanLyTiemCafe
 {
     public partial class fLogin : Form
     {
+        private SqlConnection cn;
+
         public fLogin()
         {
             InitializeComponent();
         }
 
-        private void btnExit_Click(object sender, EventArgs e)
+        private void fLogin_Load(object sender, EventArgs e)
         {
-            this.Close();
+            string cnStr = "Server = .; Database = CoffeeShop; Integrated Security=True";
+            cn = new SqlConnection(cnStr);
         }
 
         private void btnResetTextboxData_Click(object sender, EventArgs e)
@@ -75,12 +79,6 @@ namespace DuAnPhanMemQuanLyTiemCafe
                     if (c.ChckLgn(username, password))
                     {
                         MessageBox.Show("Đăng Nhập Thành Công.", "Đăng Nhập Hệ Thống", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-                        //fSoftwareManagement s = new fSoftwareManagement();
-                        //this.Enabled = false;
-                        //this.Hide();
-                        //s.Show();
-                        //this.Close();
                     }
                     else
                     {
@@ -93,6 +91,11 @@ namespace DuAnPhanMemQuanLyTiemCafe
                     }
                 }
             }   
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

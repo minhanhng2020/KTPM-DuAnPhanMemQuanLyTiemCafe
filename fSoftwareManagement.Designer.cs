@@ -68,7 +68,7 @@
             this.trợGiúpToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(467, 25);
+            this.menuStrip1.Size = new System.Drawing.Size(632, 25);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -188,7 +188,7 @@
             this.gửiBáoCáoLỗiToolStripMenuItem,
             this.yêuCầuToolStripMenuItem});
             this.trợGiúpToolStripMenuItem.Name = "trợGiúpToolStripMenuItem";
-            this.trợGiúpToolStripMenuItem.Size = new System.Drawing.Size(78, 21);
+            this.trợGiúpToolStripMenuItem.Size = new System.Drawing.Size(77, 21);
             this.trợGiúpToolStripMenuItem.Text = "Trợ Giúp";
             // 
             // giớiThiệuToolStripMenuItem
@@ -197,19 +197,19 @@
             this.chứcNăngToolStripMenuItem1,
             this.chươngTrìnhToolStripMenuItem});
             this.giớiThiệuToolStripMenuItem.Name = "giớiThiệuToolStripMenuItem";
-            this.giớiThiệuToolStripMenuItem.Size = new System.Drawing.Size(212, 22);
+            this.giớiThiệuToolStripMenuItem.Size = new System.Drawing.Size(211, 22);
             this.giớiThiệuToolStripMenuItem.Text = "Giới Thiệu";
             // 
             // chứcNăngToolStripMenuItem1
             // 
             this.chứcNăngToolStripMenuItem1.Name = "chứcNăngToolStripMenuItem1";
-            this.chứcNăngToolStripMenuItem1.Size = new System.Drawing.Size(168, 22);
+            this.chứcNăngToolStripMenuItem1.Size = new System.Drawing.Size(167, 22);
             this.chứcNăngToolStripMenuItem1.Text = "Chức Năng";
             // 
             // chươngTrìnhToolStripMenuItem
             // 
             this.chươngTrìnhToolStripMenuItem.Name = "chươngTrìnhToolStripMenuItem";
-            this.chươngTrìnhToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
+            this.chươngTrìnhToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
             this.chươngTrìnhToolStripMenuItem.Text = "Chương Trình";
             // 
             // thôngTinPhiênBảnToolStripMenuItem
@@ -217,25 +217,25 @@
             this.thôngTinPhiênBảnToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.kiểmTraCậpNhậtToolStripMenuItem});
             this.thôngTinPhiênBảnToolStripMenuItem.Name = "thôngTinPhiênBảnToolStripMenuItem";
-            this.thôngTinPhiênBảnToolStripMenuItem.Size = new System.Drawing.Size(212, 22);
+            this.thôngTinPhiênBảnToolStripMenuItem.Size = new System.Drawing.Size(211, 22);
             this.thôngTinPhiênBảnToolStripMenuItem.Text = "Thông Tin Phiên Bản";
             // 
             // kiểmTraCậpNhậtToolStripMenuItem
             // 
             this.kiểmTraCậpNhậtToolStripMenuItem.Name = "kiểmTraCậpNhậtToolStripMenuItem";
-            this.kiểmTraCậpNhậtToolStripMenuItem.Size = new System.Drawing.Size(201, 22);
+            this.kiểmTraCậpNhậtToolStripMenuItem.Size = new System.Drawing.Size(200, 22);
             this.kiểmTraCậpNhậtToolStripMenuItem.Text = "Kiểm Tra Cập Nhật";
             // 
             // gửiBáoCáoLỗiToolStripMenuItem
             // 
             this.gửiBáoCáoLỗiToolStripMenuItem.Name = "gửiBáoCáoLỗiToolStripMenuItem";
-            this.gửiBáoCáoLỗiToolStripMenuItem.Size = new System.Drawing.Size(212, 22);
+            this.gửiBáoCáoLỗiToolStripMenuItem.Size = new System.Drawing.Size(211, 22);
             this.gửiBáoCáoLỗiToolStripMenuItem.Text = "Gửi Báo Cáo Lỗi";
             // 
             // yêuCầuToolStripMenuItem
             // 
             this.yêuCầuToolStripMenuItem.Name = "yêuCầuToolStripMenuItem";
-            this.yêuCầuToolStripMenuItem.Size = new System.Drawing.Size(212, 22);
+            this.yêuCầuToolStripMenuItem.Size = new System.Drawing.Size(211, 22);
             this.yêuCầuToolStripMenuItem.Text = "Yêu Cầu Chức Năng";
             // 
             // btnAccess
@@ -248,7 +248,7 @@
             this.btnAccess.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold);
             this.btnAccess.Location = new System.Drawing.Point(12, 49);
             this.btnAccess.Name = "btnAccess";
-            this.btnAccess.Size = new System.Drawing.Size(210, 100);
+            this.btnAccess.Size = new System.Drawing.Size(300, 170);
             this.btnAccess.TabIndex = 1;
             this.btnAccess.Text = "Trích Xuất Thông Tin";
             this.btnAccess.UseVisualStyleBackColor = false;
@@ -262,9 +262,9 @@
             this.btnRecovery.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRecovery.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold);
             this.btnRecovery.ForeColor = System.Drawing.Color.White;
-            this.btnRecovery.Location = new System.Drawing.Point(242, 49);
+            this.btnRecovery.Location = new System.Drawing.Point(320, 49);
             this.btnRecovery.Name = "btnRecovery";
-            this.btnRecovery.Size = new System.Drawing.Size(210, 100);
+            this.btnRecovery.Size = new System.Drawing.Size(300, 170);
             this.btnRecovery.TabIndex = 1;
             this.btnRecovery.Text = "Khôi Phục Dữ Liệu";
             this.btnRecovery.UseVisualStyleBackColor = false;
@@ -275,9 +275,9 @@
             this.button3.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Arial", 10F);
-            this.button3.Location = new System.Drawing.Point(12, 176);
+            this.button3.Location = new System.Drawing.Point(14, 245);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(210, 100);
+            this.button3.Size = new System.Drawing.Size(300, 170);
             this.button3.TabIndex = 1;
             this.button3.Text = "Thiết Lập Cấu Hình";
             this.button3.UseVisualStyleBackColor = true;
@@ -290,9 +290,9 @@
             this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnExit.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold);
             this.btnExit.ForeColor = System.Drawing.Color.LightGray;
-            this.btnExit.Location = new System.Drawing.Point(242, 176);
+            this.btnExit.Location = new System.Drawing.Point(320, 245);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(210, 100);
+            this.btnExit.Size = new System.Drawing.Size(300, 170);
             this.btnExit.TabIndex = 1;
             this.btnExit.Text = "Thoát Chương Trình";
             this.btnExit.UseVisualStyleBackColor = false;
@@ -302,7 +302,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(467, 294);
+            this.ClientSize = new System.Drawing.Size(632, 448);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.btnRecovery);
