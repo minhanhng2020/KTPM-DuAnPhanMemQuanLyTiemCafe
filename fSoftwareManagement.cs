@@ -39,7 +39,6 @@ namespace DuAnPhanMemQuanLyTiemCafe
             {
                 Application.Exit();
             }
-
         }
 
         private void thoátChươngTrìnhToolStripMenuItem_Click(object sender, EventArgs e)

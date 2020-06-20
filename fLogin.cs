@@ -65,6 +65,7 @@ namespace DuAnPhanMemQuanLyTiemCafe
             }
             else
             {
+                //MAT KHAU CHUA HOP LE
                 if (password == null || password == "" || password.Length > 50)
                 {
                     DialogResult rlt = MessageBox.Show("Đã Xảy Ra Lỗi. Vui Lòng Thử Lại...", "Đăng Nhập Hệ Thống", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
@@ -76,11 +77,11 @@ namespace DuAnPhanMemQuanLyTiemCafe
                 }
                 else
                 {
-                    if (c.ChckLgn(username, password))
+                    if (c.ChckLgn(username, password)) //DANG NHAP THANH CONG.
                     {
                         MessageBox.Show("Đăng Nhập Thành Công.", "Đăng Nhập Hệ Thống", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
-                    else
+                    else //DANG NHAP BI LOI.
                     {
                         DialogResult rlt = MessageBox.Show("Đã Xảy Ra Lỗi. Vui Lòng Thử Lại...", "Đăng Nhập Hệ Thống", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
                         if (rlt == DialogResult.Cancel)
