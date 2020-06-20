@@ -15,5 +15,10 @@ namespace DuAnPhanMemQuanLyTiemCafe
         {
             InitializeComponent();
         }
+
+        private void btnIncome_Click(object sender, EventArgs e)
+        {
+            //Updating...            
+        }
     }
 }

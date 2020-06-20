@@ -50,9 +50,13 @@ namespace DuAnPhanMemQuanLyTiemCafe
         {
             string username = txtUsername.Text;
             string password = txtPassword.Text;
+
+            #region DAC_TA_YEU_CAU
             //Username: Tên tự đặt (tối đa 15 ký tự), không ký tự đặc biệt, trừ khi dùng email.
             //- Password: Tối thiểu 8 ký tự, yêu cầu có ký tự hoa, ký tự thường, ký tự số, ký tự đặc biệt.
             //- Bắt buộc có cả username và password.
+            #endregion
+
             CheckLoginBUS c = new CheckLoginBUS();
             if (username == null || username == "" || username.Length > 15 || username.Length <= 3)
             {

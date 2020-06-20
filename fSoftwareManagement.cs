@@ -37,7 +37,7 @@ namespace DuAnPhanMemQuanLyTiemCafe
             }
             else
             {
-                Application.Exit();
+                this.Hide();
             }
         }
 
