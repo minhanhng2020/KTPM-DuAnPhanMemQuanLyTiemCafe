@@ -15,7 +15,7 @@ namespace DuAnPhanMemQuanLyTiemCafe
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new fSoftwareManagement());
+            Application.Run(new fSuppliers());
         }
     }
 }

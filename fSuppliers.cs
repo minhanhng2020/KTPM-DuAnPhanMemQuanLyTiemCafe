@@ -42,15 +42,34 @@ namespace DuAnPhanMemQuanLyTiemCafe
             Supplier s = new Supplier(Id, Name, Address);
 
             int rsl = sBUS.Add(s);
-            if (rsl > 0)
+
+            if (Id != null || Id != "")
             {
-                List<Supplier> list = sBUS.LoadSupplier();
-                dgvSupplier.DataSource = list;
-                MessageBox.Show("Thêm nhà cung cấp mới thành công!");
+                if (Name != null || Name != "")
+                {
+                    if (rsl > 0)
+                    {
+                        List<Supplier> list = sBUS.LoadSupplier();
+                        dgvSupplier.DataSource = list;
+                        MessageBox.Show("Thêm nhà cung cấp mới thành công!");
+                    }
+                    else
+                        MessageBox.Show("Đã xảy ra lỗi, vui lòng thử lại...");
+                }
+                else
+                    MessageBox.Show("Đã xảy ra lỗi, vui lòng thử lại...");
             }
             else
                 MessageBox.Show("Đã xảy ra lỗi, vui lòng thử lại...");
         }
+        
+        //private void dgvSupplier_CellClick(object sender, DataGridViewCellEventArgs e)
+        //{
+        //    int index = dgvSupplier.CurrentCell.RowIndex;
+        //    txtSplID = dgvSupplier.Rows[index].Cells["IdColumn"].Value.ToString();
+        //    Cmb.Text = dgvSupplier.Rows[index].Cells["NameColumn"].Value.ToString();
+        //    txtAddress.Text = dgvSupplier.Rows[index].Cells["AddressColumn"].Value.ToString();
+        //}
 
         private void btnExit_Click(object sender, EventArgs e)
         {
@@ -62,6 +81,16 @@ namespace DuAnPhanMemQuanLyTiemCafe
             fSoftwareManagement sm = new fSoftwareManagement();
             sm.Show();
             this.Hide();
+        }
+
+        private void btnEditSup_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Chức Năng Đang Được Bổ Sung, Vui Lòng Quay Lại Sau.");
+        }
+
+        private void btnRemSup_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Chức Năng Đang Được Bổ Sung, Vui Lòng Quay Lại Sau.");
         }
     }
 }

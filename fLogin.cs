@@ -61,10 +61,11 @@ namespace DuAnPhanMemQuanLyTiemCafe
             if (username == null || username == "" || username.Length > 15 || username.Length <= 3)
             {
                 DialogResult rlt = MessageBox.Show("Đã Xảy Ra Lỗi. Vui Lòng Thử Lại...", "Đăng Nhập Hệ Thống", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
-                if (rlt==DialogResult.Cancel)
+                if (rlt == DialogResult.Cancel)
                 {
                     MessageBox.Show("Tạm Biệt, Hẹn Gặp Lại.");
-                    Application.Exit();
+                    // Application.Exit();
+                    this.Close();
                 }
             }
             else
@@ -76,7 +77,9 @@ namespace DuAnPhanMemQuanLyTiemCafe
                     if (rlt == DialogResult.Cancel)
                     {
                         MessageBox.Show("Tạm Biệt, Hẹn Gặp Lại.");
-                        Application.Exit();
+                        // Application.Exit();
+                        this.DialogResult = DialogResult.OK;
+                        this.Close();
                     }
                 }
                 else
@@ -84,6 +87,7 @@ namespace DuAnPhanMemQuanLyTiemCafe
                     if (c.ChckLgn(username, password)) //DANG NHAP THANH CONG.
                     {
                         MessageBox.Show("Đăng Nhập Thành Công.", "Đăng Nhập Hệ Thống", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        this.Close();
                     }
                     else //DANG NHAP BI LOI.
                     {
@@ -91,7 +95,8 @@ namespace DuAnPhanMemQuanLyTiemCafe
                         if (rlt == DialogResult.Cancel)
                         {
                             MessageBox.Show("Tạm Biệt, Hẹn Gặp Lại.");
-                            Application.Exit();
+                            // Application.Exit();
+                            this.Close();
                         }
                     }
                 }
@@ -100,7 +105,8 @@ namespace DuAnPhanMemQuanLyTiemCafe
 
         private void btnExit_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            // Application.Exit();
+            this.Close();
         }
 
         private void thoátChươngTrìnhToolStripMenuItem_Click(object sender, EventArgs e)

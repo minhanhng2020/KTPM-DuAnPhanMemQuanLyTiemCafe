@@ -28,18 +28,23 @@ namespace DuAnPhanMemQuanLyTiemCafe
             #endregion
 
             this.Show(); //Hiển Thị fSoftwareManagement.
-            this.Enabled = false; //Tắt Thao Tác Với fSoftwareManagement.
+            //this.Enabled = false; //Tắt Thao Tác Với fSoftwareManagement.
 
             fLogin l = new fLogin(); //???
-            DialogResult rlt = l.ShowDialog(); //???
+            //DialogResult r = l.ShowDialog(); //???
             //Kiểm Tra Người Dùng Có Nhấn Nút 'OK' hay không.
-            if (rlt == DialogResult.OK) //Nếu có thì:
+            
+            // if (r == DialogResult.OK) //Nếu có thì:
+            if (l.ShowDialog() == DialogResult.OK)
             {
                 this.Enabled = true;
+                Console.WriteLine("\n-----\n");
+                Console.WriteLine("enable");
+                Console.WriteLine("\n-----\n");
             }
             else //Nếu không thì:
             {
-                this.Hide(); //Ẩn Form Đang Chạy (Form Đang Chạy Là...??)
+                this.Hide();
             }
         }
 
