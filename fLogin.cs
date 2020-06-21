@@ -64,7 +64,7 @@ namespace DuAnPhanMemQuanLyTiemCafe
                 if (rlt==DialogResult.Cancel)
                 {
                     MessageBox.Show("Tạm Biệt, Hẹn Gặp Lại.");
-                    this.Close();
+                    Application.Exit();
                 }
             }
             else
@@ -91,7 +91,7 @@ namespace DuAnPhanMemQuanLyTiemCafe
                         if (rlt == DialogResult.Cancel)
                         {
                             MessageBox.Show("Tạm Biệt, Hẹn Gặp Lại.");
-                            this.Close();
+                            Application.Exit();
                         }
                     }
                 }
@@ -100,7 +100,12 @@ namespace DuAnPhanMemQuanLyTiemCafe
 
         private void btnExit_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Application.Exit();
+        }
+
+        private void thoátChươngTrìnhToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

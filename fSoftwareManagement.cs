@@ -17,6 +17,7 @@ namespace DuAnPhanMemQuanLyTiemCafe
         }
 
         private void fSoftwareManagement_Load(object sender, EventArgs e)
+            //Lúc Form fSoftwareManagement đang được truy cập thì...
         {
             #region Past
             //fLogin l = new fLogin();
@@ -26,18 +27,19 @@ namespace DuAnPhanMemQuanLyTiemCafe
             //l.Focus();
             #endregion
 
-            this.Show();
-            this.Enabled = false;
+            this.Show(); //Hiển Thị fSoftwareManagement.
+            this.Enabled = false; //Tắt Thao Tác Với fSoftwareManagement.
 
-            fLogin l = new fLogin();
-            DialogResult rlt = l.ShowDialog();
-            if (rlt == DialogResult.OK)
+            fLogin l = new fLogin(); //???
+            DialogResult rlt = l.ShowDialog(); //???
+            //Kiểm Tra Người Dùng Có Nhấn Nút 'OK' hay không.
+            if (rlt == DialogResult.OK) //Nếu có thì:
             {
                 this.Enabled = true;
             }
-            else
+            else //Nếu không thì:
             {
-                this.Hide();
+                this.Hide(); //Ẩn Form Đang Chạy (Form Đang Chạy Là...??)
             }
         }
 

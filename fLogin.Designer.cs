@@ -512,6 +512,7 @@
             this.thoátChươngTrìnhToolStripMenuItem.Name = "thoátChươngTrìnhToolStripMenuItem";
             this.thoátChươngTrìnhToolStripMenuItem.Size = new System.Drawing.Size(299, 22);
             this.thoátChươngTrìnhToolStripMenuItem.Text = "Thoát Chương Trình";
+            this.thoátChươngTrìnhToolStripMenuItem.Click += new System.EventHandler(this.thoátChươngTrìnhToolStripMenuItem_Click);
             // 
             // trợGiúpToolStripMenuItem
             // 
