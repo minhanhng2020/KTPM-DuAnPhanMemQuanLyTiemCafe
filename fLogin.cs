@@ -105,8 +105,8 @@ namespace DuAnPhanMemQuanLyTiemCafe
 
         private void btnExit_Click(object sender, EventArgs e)
         {
-            // Application.Exit();
-            this.Close();
+            Application.Exit();
+            //this.Close();
         }
 
         private void thoátChươngTrìnhToolStripMenuItem_Click(object sender, EventArgs e)

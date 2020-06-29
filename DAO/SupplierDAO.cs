@@ -25,9 +25,11 @@ namespace DAO
                 name = dr[1].ToString();
                 address = dr[2].ToString();
 
-
-                Supplier sp = new Supplier(id, name, address);
-                l.Add(sp);
+                if (id != null || id != "" || name != null || name != "")
+                {
+                    Supplier sp = new Supplier(id, name, address);
+                    l.Add(sp);
+                }
             }
             dr.Close();
 

@@ -52,8 +52,8 @@ namespace DAO
             cmd.CommandText = sql;
             cmd.CommandType = CommandType.Text;
 
-            int sodong = cmd.ExecuteNonQuery();
-            return sodong;
+            int rsl = cmd.ExecuteNonQuery();
+            return rsl;
         }
 
         public SqlDataReader MyExecuteReader(string sql)
@@ -72,8 +72,8 @@ namespace DAO
             SqlDataAdapter da = new SqlDataAdapter(sql, cn);
             DataTable dt = new DataTable();
 
-            int sodong = da.Fill(dt);
-            if (sodong>0)
+            int rsl = da.Fill(dt);
+            if (rsl>0)
                 return dt;
             else
                 return null;

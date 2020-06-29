@@ -43,9 +43,9 @@ namespace DuAnPhanMemQuanLyTiemCafe
 
             int rsl = sBUS.Add(s);
 
-            if (Id != null || Id != "")
+            if (txtSplID.Text != null || txtSplID.Text != "" || txtSplID.ToString() != null || txtSplID.ToString() != "")
             {
-                if (Name != null || Name != "")
+                if (cmbSplName.Text != null || cmbSplName.Text != "")
                 {
                     if (rsl > 0)
                     {
