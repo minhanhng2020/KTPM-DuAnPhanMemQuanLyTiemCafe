@@ -285,31 +285,31 @@
   <data name="&gt;&gt;btnAddEmp.ZOrder" xml:space="preserve">
     <value>14</value>
   </data>
-  <data name="textBox1.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="txtEmpID.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 7.8pt</value>
   </data>
-  <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="txtEmpID.Location" type="System.Drawing.Point, System.Drawing">
     <value>177, 27</value>
   </data>
-  <data name="textBox1.MaxLength" type="System.Int32, mscorlib">
+  <data name="txtEmpID.MaxLength" type="System.Int32, mscorlib">
     <value>50</value>
   </data>
-  <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="txtEmpID.Size" type="System.Drawing.Size, System.Drawing">
     <value>200, 22</value>
   </data>
-  <data name="textBox1.TabIndex" type="System.Int32, mscorlib">
+  <data name="txtEmpID.TabIndex" type="System.Int32, mscorlib">
     <value>68</value>
   </data>
-  <data name="&gt;&gt;textBox1.Name" xml:space="preserve">
-    <value>textBox1</value>
+  <data name="&gt;&gt;txtEmpID.Name" xml:space="preserve">
+    <value>txtEmpID</value>
   </data>
-  <data name="&gt;&gt;textBox1.Type" xml:space="preserve">
+  <data name="&gt;&gt;txtEmpID.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;textBox1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;txtEmpID.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;txtEmpID.ZOrder" xml:space="preserve">
     <value>16</value>
   </data>
   <data name="lblQPU.AutoSize" type="System.Boolean, mscorlib">
@@ -378,70 +378,70 @@
   <data name="&gt;&gt;lblJntDate.ZOrder" xml:space="preserve">
     <value>22</value>
   </data>
-  <data name="lblEmpLName.AutoSize" type="System.Boolean, mscorlib">
+  <data name="lblEmpAddress.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="lblEmpLName.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="lblEmpAddress.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 7.8pt</value>
   </data>
-  <data name="lblEmpLName.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="lblEmpAddress.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 89</value>
   </data>
-  <data name="lblEmpLName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>106, 16</value>
+  <data name="lblEmpAddress.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 16</value>
   </data>
-  <data name="lblEmpLName.TabIndex" type="System.Int32, mscorlib">
+  <data name="lblEmpAddress.TabIndex" type="System.Int32, mscorlib">
     <value>61</value>
   </data>
-  <data name="lblEmpLName.Text" xml:space="preserve">
-    <value>Tên Nhân Viên:</value>
+  <data name="lblEmpAddress.Text" xml:space="preserve">
+    <value>Địa Chỉ:</value>
   </data>
-  <data name="lblEmpLName.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+  <data name="lblEmpAddress.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
   </data>
-  <data name="&gt;&gt;lblEmpLName.Name" xml:space="preserve">
-    <value>lblEmpLName</value>
+  <data name="&gt;&gt;lblEmpAddress.Name" xml:space="preserve">
+    <value>lblEmpAddress</value>
   </data>
-  <data name="&gt;&gt;lblEmpLName.Type" xml:space="preserve">
+  <data name="&gt;&gt;lblEmpAddress.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;lblEmpLName.Parent" xml:space="preserve">
+  <data name="&gt;&gt;lblEmpAddress.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;lblEmpLName.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;lblEmpAddress.ZOrder" xml:space="preserve">
     <value>23</value>
   </data>
-  <data name="lblProName.AutoSize" type="System.Boolean, mscorlib">
+  <data name="lblEmpName.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="lblProName.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="lblEmpName.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 7.8pt</value>
   </data>
-  <data name="lblProName.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="lblEmpName.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 61</value>
   </data>
-  <data name="lblProName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>112, 16</value>
+  <data name="lblEmpName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 16</value>
   </data>
-  <data name="lblProName.TabIndex" type="System.Int32, mscorlib">
+  <data name="lblEmpName.TabIndex" type="System.Int32, mscorlib">
     <value>60</value>
   </data>
-  <data name="lblProName.Text" xml:space="preserve">
-    <value>Họ Và Tên Đệm:</value>
+  <data name="lblEmpName.Text" xml:space="preserve">
+    <value>Họ Và Tên:</value>
   </data>
-  <data name="lblProName.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+  <data name="lblEmpName.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
   </data>
-  <data name="&gt;&gt;lblProName.Name" xml:space="preserve">
-    <value>lblProName</value>
+  <data name="&gt;&gt;lblEmpName.Name" xml:space="preserve">
+    <value>lblEmpName</value>
   </data>
-  <data name="&gt;&gt;lblProName.Type" xml:space="preserve">
+  <data name="&gt;&gt;lblEmpName.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;lblProName.Parent" xml:space="preserve">
+  <data name="&gt;&gt;lblEmpName.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;lblProName.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;lblEmpName.ZOrder" xml:space="preserve">
     <value>24</value>
   </data>
   <data name="lblProID.AutoSize" type="System.Boolean, mscorlib">
@@ -481,7 +481,7 @@
     <value>17, 17</value>
   </metadata>
   <data name="menuStrip1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Arial, 7.8pt</value>
+    <value>Arial, 10pt</value>
   </data>
   <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
@@ -633,58 +633,58 @@
   <data name="&gt;&gt;checkBox1.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="textBox2.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="txtEmpName.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 7.8pt</value>
   </data>
-  <data name="textBox2.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="txtEmpName.Location" type="System.Drawing.Point, System.Drawing">
     <value>177, 55</value>
   </data>
-  <data name="textBox2.MaxLength" type="System.Int32, mscorlib">
+  <data name="txtEmpName.MaxLength" type="System.Int32, mscorlib">
     <value>250</value>
   </data>
-  <data name="textBox2.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="txtEmpName.Size" type="System.Drawing.Size, System.Drawing">
     <value>200, 22</value>
   </data>
-  <data name="textBox2.TabIndex" type="System.Int32, mscorlib">
+  <data name="txtEmpName.TabIndex" type="System.Int32, mscorlib">
     <value>83</value>
   </data>
-  <data name="&gt;&gt;textBox2.Name" xml:space="preserve">
-    <value>textBox2</value>
+  <data name="&gt;&gt;txtEmpName.Name" xml:space="preserve">
+    <value>txtEmpName</value>
   </data>
-  <data name="&gt;&gt;textBox2.Type" xml:space="preserve">
+  <data name="&gt;&gt;txtEmpName.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;textBox2.Parent" xml:space="preserve">
+  <data name="&gt;&gt;txtEmpName.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;textBox2.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;txtEmpName.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="textBox3.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="txtEmpAddress.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 7.8pt</value>
   </data>
-  <data name="textBox3.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="txtEmpAddress.Location" type="System.Drawing.Point, System.Drawing">
     <value>176, 83</value>
   </data>
-  <data name="textBox3.MaxLength" type="System.Int32, mscorlib">
+  <data name="txtEmpAddress.MaxLength" type="System.Int32, mscorlib">
     <value>250</value>
   </data>
-  <data name="textBox3.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="txtEmpAddress.Size" type="System.Drawing.Size, System.Drawing">
     <value>201, 22</value>
   </data>
-  <data name="textBox3.TabIndex" type="System.Int32, mscorlib">
+  <data name="txtEmpAddress.TabIndex" type="System.Int32, mscorlib">
     <value>83</value>
   </data>
-  <data name="&gt;&gt;textBox3.Name" xml:space="preserve">
-    <value>textBox3</value>
+  <data name="&gt;&gt;txtEmpAddress.Name" xml:space="preserve">
+    <value>txtEmpAddress</value>
   </data>
-  <data name="&gt;&gt;textBox3.Type" xml:space="preserve">
+  <data name="&gt;&gt;txtEmpAddress.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;textBox3.Parent" xml:space="preserve">
+  <data name="&gt;&gt;txtEmpAddress.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;textBox3.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;txtEmpAddress.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="dtpHiredTime.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
@@ -942,35 +942,50 @@
   <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
     <value>15</value>
   </data>
-  <data name="textBox6.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="txtEmpPhone.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 7.8pt</value>
   </data>
-  <data name="textBox6.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="txtEmpPhone.Location" type="System.Drawing.Point, System.Drawing">
     <value>176, 287</value>
   </data>
-  <data name="textBox6.MaxLength" type="System.Int32, mscorlib">
+  <data name="txtEmpPhone.MaxLength" type="System.Int32, mscorlib">
     <value>20</value>
   </data>
-  <data name="textBox6.Multiline" type="System.Boolean, mscorlib">
+  <data name="txtEmpPhone.Multiline" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="textBox6.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="txtEmpPhone.Size" type="System.Drawing.Size, System.Drawing">
     <value>201, 22</value>
   </data>
-  <data name="textBox6.TabIndex" type="System.Int32, mscorlib">
+  <data name="txtEmpPhone.TabIndex" type="System.Int32, mscorlib">
     <value>83</value>
   </data>
-  <data name="&gt;&gt;textBox6.Name" xml:space="preserve">
-    <value>textBox6</value>
+  <data name="&gt;&gt;txtEmpPhone.Name" xml:space="preserve">
+    <value>txtEmpPhone</value>
   </data>
-  <data name="&gt;&gt;textBox6.Type" xml:space="preserve">
+  <data name="&gt;&gt;txtEmpPhone.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;textBox6.Parent" xml:space="preserve">
+  <data name="&gt;&gt;txtEmpPhone.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;textBox6.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;txtEmpPhone.ZOrder" xml:space="preserve">
     <value>3</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.Name" xml:space="preserve">
+    <value>dataGridView1</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 10px</value>
   </data>
   <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
     <value>383, 28</value>
@@ -992,6 +1007,138 @@
   </data>
   <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <metadata name="Id.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Name.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Address.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Phonenumber.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Hiredate.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Branch.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Department.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Position.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Companyemail.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Personalemail.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Delete.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Edit.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="dataGridView1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="dataGridView1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="dataGridView1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>613, 255</value>
+  </data>
+  <data name="dataGridView1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.Name" xml:space="preserve">
+    <value>dataGridView1</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="Id.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Id.HeaderText" xml:space="preserve">
+    <value>Mã Nhân Viên</value>
+  </data>
+  <metadata name="Name.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Name.HeaderText" xml:space="preserve">
+    <value>Tên Nhân Viên</value>
+  </data>
+  <metadata name="Address.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Address.HeaderText" xml:space="preserve">
+    <value>Địa Chỉ</value>
+  </data>
+  <metadata name="Phonenumber.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Phonenumber.HeaderText" xml:space="preserve">
+    <value>Số Điện Thoại</value>
+  </data>
+  <metadata name="Hiredate.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Hiredate.HeaderText" xml:space="preserve">
+    <value>Ngày Gia Nhập</value>
+  </data>
+  <metadata name="Branch.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Branch.HeaderText" xml:space="preserve">
+    <value>Chi Nhánh</value>
+  </data>
+  <metadata name="Department.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Department.HeaderText" xml:space="preserve">
+    <value>Bộ Phận Chuyên Trách</value>
+  </data>
+  <metadata name="Position.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Position.HeaderText" xml:space="preserve">
+    <value>Chức Vụ Đảm Nhiệm</value>
+  </data>
+  <metadata name="Companyemail.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Companyemail.HeaderText" xml:space="preserve">
+    <value>E-mail Công Ty</value>
+  </data>
+  <metadata name="Personalemail.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Personalemail.HeaderText" xml:space="preserve">
+    <value>E-mail Cá Nhân</value>
+  </data>
+  <metadata name="Delete.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Delete.HeaderText" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <metadata name="Edit.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Edit.HeaderText" xml:space="preserve">
+    <value>Sửa</value>
   </data>
   <data name="label5.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1199,6 +1346,78 @@
   </data>
   <data name="&gt;&gt;đóngChứcNăngNàyToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Id.Name" xml:space="preserve">
+    <value>Id</value>
+  </data>
+  <data name="&gt;&gt;Id.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Name.Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="&gt;&gt;Name.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Address.Name" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="&gt;&gt;Address.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Phonenumber.Name" xml:space="preserve">
+    <value>Phonenumber</value>
+  </data>
+  <data name="&gt;&gt;Phonenumber.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Hiredate.Name" xml:space="preserve">
+    <value>Hiredate</value>
+  </data>
+  <data name="&gt;&gt;Hiredate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Branch.Name" xml:space="preserve">
+    <value>Branch</value>
+  </data>
+  <data name="&gt;&gt;Branch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Department.Name" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="&gt;&gt;Department.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Position.Name" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="&gt;&gt;Position.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Companyemail.Name" xml:space="preserve">
+    <value>Companyemail</value>
+  </data>
+  <data name="&gt;&gt;Companyemail.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Personalemail.Name" xml:space="preserve">
+    <value>Personalemail</value>
+  </data>
+  <data name="&gt;&gt;Personalemail.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Delete.Name" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="&gt;&gt;Delete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewButtonColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Edit.Name" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="&gt;&gt;Edit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewButtonColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>fEmployees</value>

@@ -38,11 +38,11 @@
             this.btnReturnHome = new System.Windows.Forms.Button();
             this.btnChangEmp = new System.Windows.Forms.Button();
             this.btnAddEmp = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtEmpID = new System.Windows.Forms.TextBox();
             this.lblQPU = new System.Windows.Forms.Label();
             this.lblJntDate = new System.Windows.Forms.Label();
-            this.lblEmpLName = new System.Windows.Forms.Label();
-            this.lblProName = new System.Windows.Forms.Label();
+            this.lblEmpAddress = new System.Windows.Forms.Label();
+            this.lblEmpName = new System.Windows.Forms.Label();
             this.lblProID = new System.Windows.Forms.Label();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.thaoTácToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -56,8 +56,8 @@
             this.xóaSảnPhẩmToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.đóngChứcNăngNàyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtEmpName = new System.Windows.Forms.TextBox();
+            this.txtEmpAddress = new System.Windows.Forms.TextBox();
             this.dtpHiredTime = new System.Windows.Forms.DateTimePicker();
             this.label1 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
@@ -66,12 +66,27 @@
             this.label3 = new System.Windows.Forms.Label();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.txtEmpPhone = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.Id = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Name = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Address = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Phonenumber = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Hiredate = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Branch = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Department = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Position = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Companyemail = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Personalemail = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Delete = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.Edit = new System.Windows.Forms.DataGridViewButtonColumn();
             this.label5 = new System.Windows.Forms.Label();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.btnExptDT = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // comboBox4
@@ -135,11 +150,12 @@
             resources.ApplyResources(this.btnAddEmp, "btnAddEmp");
             this.btnAddEmp.Name = "btnAddEmp";
             this.btnAddEmp.UseVisualStyleBackColor = true;
+            this.btnAddEmp.Click += new System.EventHandler(this.btnAddEmp_Click);
             // 
-            // textBox1
+            // txtEmpID
             // 
-            resources.ApplyResources(this.textBox1, "textBox1");
-            this.textBox1.Name = "textBox1";
+            resources.ApplyResources(this.txtEmpID, "txtEmpID");
+            this.txtEmpID.Name = "txtEmpID";
             // 
             // lblQPU
             // 
@@ -151,15 +167,15 @@
             resources.ApplyResources(this.lblJntDate, "lblJntDate");
             this.lblJntDate.Name = "lblJntDate";
             // 
-            // lblEmpLName
+            // lblEmpAddress
             // 
-            resources.ApplyResources(this.lblEmpLName, "lblEmpLName");
-            this.lblEmpLName.Name = "lblEmpLName";
+            resources.ApplyResources(this.lblEmpAddress, "lblEmpAddress");
+            this.lblEmpAddress.Name = "lblEmpAddress";
             // 
-            // lblProName
+            // lblEmpName
             // 
-            resources.ApplyResources(this.lblProName, "lblProName");
-            this.lblProName.Name = "lblProName";
+            resources.ApplyResources(this.lblEmpName, "lblEmpName");
+            this.lblEmpName.Name = "lblEmpName";
             // 
             // lblProID
             // 
@@ -242,15 +258,15 @@
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
-            // textBox2
+            // txtEmpName
             // 
-            resources.ApplyResources(this.textBox2, "textBox2");
-            this.textBox2.Name = "textBox2";
+            resources.ApplyResources(this.txtEmpName, "txtEmpName");
+            this.txtEmpName.Name = "txtEmpName";
             // 
-            // textBox3
+            // txtEmpAddress
             // 
-            resources.ApplyResources(this.textBox3, "textBox3");
-            this.textBox3.Name = "textBox3";
+            resources.ApplyResources(this.txtEmpAddress, "txtEmpAddress");
+            this.txtEmpAddress.Name = "txtEmpAddress";
             // 
             // dtpHiredTime
             // 
@@ -296,15 +312,108 @@
             resources.ApplyResources(this.label4, "label4");
             this.label4.Name = "label4";
             // 
-            // textBox6
+            // txtEmpPhone
             // 
-            resources.ApplyResources(this.textBox6, "textBox6");
-            this.textBox6.Name = "textBox6";
+            resources.ApplyResources(this.txtEmpPhone, "txtEmpPhone");
+            this.txtEmpPhone.Name = "txtEmpPhone";
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.dataGridView1);
             resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Name = "panel1";
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Id,
+            this.Name,
+            this.Address,
+            this.Phonenumber,
+            this.Hiredate,
+            this.Branch,
+            this.Department,
+            this.Position,
+            this.Companyemail,
+            this.Personalemail,
+            this.Delete,
+            this.Edit});
+            resources.ApplyResources(this.dataGridView1, "dataGridView1");
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowTemplate.Height = 24;
+            // 
+            // Id
+            // 
+            this.Id.DataPropertyName = "id";
+            resources.ApplyResources(this.Id, "Id");
+            this.Id.Name = "Id";
+            // 
+            // Name
+            // 
+            this.Name.DataPropertyName = "name";
+            resources.ApplyResources(this.Name, "Name");
+            this.Name.Name = "Name";
+            // 
+            // Address
+            // 
+            this.Address.DataPropertyName = "address";
+            resources.ApplyResources(this.Address, "Address");
+            this.Address.Name = "Address";
+            // 
+            // Phonenumber
+            // 
+            this.Phonenumber.DataPropertyName = "phonenumber";
+            resources.ApplyResources(this.Phonenumber, "Phonenumber");
+            this.Phonenumber.Name = "Phonenumber";
+            // 
+            // Hiredate
+            // 
+            this.Hiredate.DataPropertyName = "hiredate";
+            resources.ApplyResources(this.Hiredate, "Hiredate");
+            this.Hiredate.Name = "Hiredate";
+            // 
+            // Branch
+            // 
+            this.Branch.DataPropertyName = "branch";
+            resources.ApplyResources(this.Branch, "Branch");
+            this.Branch.Name = "Branch";
+            // 
+            // Department
+            // 
+            this.Department.DataPropertyName = "department";
+            resources.ApplyResources(this.Department, "Department");
+            this.Department.Name = "Department";
+            // 
+            // Position
+            // 
+            this.Position.DataPropertyName = "position";
+            resources.ApplyResources(this.Position, "Position");
+            this.Position.Name = "Position";
+            // 
+            // Companyemail
+            // 
+            this.Companyemail.DataPropertyName = "companyemail";
+            resources.ApplyResources(this.Companyemail, "Companyemail");
+            this.Companyemail.Name = "Companyemail";
+            // 
+            // Personalemail
+            // 
+            this.Personalemail.DataPropertyName = "personalemail";
+            resources.ApplyResources(this.Personalemail, "Personalemail");
+            this.Personalemail.Name = "Personalemail";
+            // 
+            // Delete
+            // 
+            this.Delete.DataPropertyName = "delete";
+            resources.ApplyResources(this.Delete, "Delete");
+            this.Delete.Name = "Delete";
+            // 
+            // Edit
+            // 
+            this.Edit.DataPropertyName = "edit";
+            resources.ApplyResources(this.Edit, "Edit");
+            this.Edit.Name = "Edit";
             // 
             // label5
             // 
@@ -333,11 +442,11 @@
             this.BackColor = System.Drawing.Color.White;
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.dtpHiredTime);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.txtEmpAddress);
+            this.Controls.Add(this.txtEmpPhone);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txtEmpName);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.comboBox1);
@@ -347,20 +456,21 @@
             this.Controls.Add(this.btnChangEmp);
             this.Controls.Add(this.btnAddEmp);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtEmpID);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblQPU);
             this.Controls.Add(this.lblJntDate);
-            this.Controls.Add(this.lblEmpLName);
-            this.Controls.Add(this.lblProName);
+            this.Controls.Add(this.lblEmpAddress);
+            this.Controls.Add(this.lblEmpName);
             this.Controls.Add(this.lblProID);
             this.Controls.Add(this.menuStrip1);
-            this.Name = "fEmployees";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -377,11 +487,11 @@
         private System.Windows.Forms.Button btnReturnHome;
         private System.Windows.Forms.Button btnChangEmp;
         private System.Windows.Forms.Button btnAddEmp;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtEmpID;
         private System.Windows.Forms.Label lblQPU;
         private System.Windows.Forms.Label lblJntDate;
-        private System.Windows.Forms.Label lblEmpLName;
-        private System.Windows.Forms.Label lblProName;
+        private System.Windows.Forms.Label lblEmpAddress;
+        private System.Windows.Forms.Label lblEmpName;
         private System.Windows.Forms.Label lblProID;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem thaoTácToolStripMenuItem;
@@ -395,8 +505,8 @@
         private System.Windows.Forms.ToolStripMenuItem xóaSảnPhẩmToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem đóngChứcNăngNàyToolStripMenuItem;
         private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtEmpName;
+        private System.Windows.Forms.TextBox txtEmpAddress;
         private System.Windows.Forms.DateTimePicker dtpHiredTime;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox comboBox1;
@@ -405,10 +515,23 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox txtEmpPhone;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.Button btnExptDT;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Id;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Name;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Address;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Phonenumber;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Hiredate;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Branch;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Department;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Position;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Companyemail;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Personalemail;
+        private System.Windows.Forms.DataGridViewButtonColumn Delete;
+        private System.Windows.Forms.DataGridViewButtonColumn Edit;
     }
 }
